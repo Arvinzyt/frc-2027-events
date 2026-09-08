@@ -29,8 +29,6 @@ export default defineConfig([
       tseslint.configs.strictTypeChecked,
       // Optionally, add this for stylistic rules
       tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
     ],
     languageOptions: {
       parserOptions: {
@@ -56,7 +54,7 @@ export default defineConfig([
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
-      // Enable lint rules for React
+      // Enable lint rules for React DOM
       reactX.configs['recommended-typescript'],
       // Enable lint rules for React DOM
       reactDom.configs.recommended,
@@ -71,3 +69,13 @@ export default defineConfig([
   },
 ])
 ```
+
+## 数据更新
+
+`public/data.json` 由脚本 `tools/update_data.py` 生成：抓取 FIRST 官网（frc-events.firstinspires.org）2026 / 2027 赛季 Regional 赛区列表，并结合 Statbotics API 计算各赛区 2026 赛季 EPA 分布统计。
+
+当 FIRST 发布新赛区或需要刷新数据时：
+
+1. 在仓库根目录运行 `python tools/update_data.py`（仅依赖标准库 + beautifulsoup4，即 `pip install beautifulsoup4`）
+2. 脚本会直接更新 `public/data.json`
+3. `git commit` 并 `git push`，push 到 main 后 GitHub Actions 会自动构建并部署最新数据
