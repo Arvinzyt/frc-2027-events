@@ -1,0 +1,1021 @@
+{
+  "meta": {
+    "generated_at": "2026-09-08 22:31:03 +0800",
+    "event_count_2027": 33,
+    "event_count_2026": 56,
+    "new_event_count": 5,
+    "week_changed_count": 7,
+    "discontinued_count": 28,
+    "sources": [
+      "https://frc-events.firstinspires.org/2027/Events/EventList?filter=REG",
+      "https://api.statbotics.io/v3 (2026 赛季 EPA)"
+    ],
+    "epa_note": "EPA 统计基于 2026 赛季对应赛事的 epa.total_points；广州 CNGU1/CNGU2 参考 2026 上海赛区，IMWR 参考 2026 爱达荷赛区。"
+  },
+  "events": [
+    {
+      "code": "COSP",
+      "name": "Pikes Peak Regional",
+      "week": 1,
+      "location": "Colorado Springs, CO USA",
+      "date_start": "3/4/2027",
+      "date_range": "3/4 to 3/7",
+      "capacity": 21,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 1,
+      "location_2026": "Colorado Springs, CO USA",
+      "epa": {
+        "event_key": "2026cosp",
+        "team_count": 33,
+        "max": 201.95,
+        "top8_avg": 129.6,
+        "top24_avg": 72.44,
+        "mean": 57.75,
+        "median": 41.15
+      },
+      "epa_source": "2026 Pikes Peak Regional"
+    },
+    {
+      "code": "MNDU",
+      "name": "Lake Superior Regional",
+      "week": 1,
+      "location": "Duluth, MN USA",
+      "date_start": "3/3/2027",
+      "date_range": "3/3 to 3/6",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 1,
+      "location_2026": "Duluth, MN USA",
+      "epa": {
+        "event_key": "2026mndu",
+        "team_count": 42,
+        "max": 110.73,
+        "top8_avg": 70.21,
+        "top24_avg": 52.31,
+        "mean": 37.65,
+        "median": 34.79
+      },
+      "epa_source": "2026 Lake Superior Regional"
+    },
+    {
+      "code": "MNDU2",
+      "name": "Northern Lights Regional",
+      "week": 1,
+      "location": "Duluth, MN USA",
+      "date_start": "3/3/2027",
+      "date_range": "3/3 to 3/6",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 1,
+      "location_2026": "Duluth, MN USA",
+      "epa": {
+        "event_key": "2026mndu2",
+        "team_count": 42,
+        "max": 116.38,
+        "top8_avg": 84.03,
+        "top24_avg": 47.72,
+        "mean": 32.59,
+        "median": 23.57
+      },
+      "epa_source": "2026 Northern Lights Regional"
+    },
+    {
+      "code": "MNWI",
+      "name": "Minnesota Bluff Country Regional",
+      "week": 1,
+      "location": "Winona, MN USA",
+      "date_start": "3/3/2027",
+      "date_range": "3/3 to 3/6",
+      "capacity": 32,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 1,
+      "location_2026": "Winona, MN USA",
+      "epa": {
+        "event_key": "2026mnwi",
+        "team_count": 41,
+        "max": 137.51,
+        "top8_avg": 116.61,
+        "top24_avg": 73.66,
+        "mean": 51.94,
+        "median": 38.8
+      },
+      "epa_source": "2026 Minnesota Bluff Country Regional"
+    },
+    {
+      "code": "MXMO",
+      "name": "Regional Monterrey presented by PrepaTec",
+      "week": 1,
+      "location": "Monterrey, MEX Mexico",
+      "date_start": "3/3/2027",
+      "date_range": "3/3 to 3/6",
+      "capacity": 32,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 2,
+      "location_2026": "Monterrey, MEX Mexico",
+      "epa": {
+        "event_key": "2026mxmo",
+        "team_count": 43,
+        "max": 166.13,
+        "top8_avg": 91.04,
+        "top24_avg": 53.9,
+        "mean": 36.34,
+        "median": 26.56
+      },
+      "epa_source": "2026 Regional Monterrey presented by PrepaTec"
+    },
+    {
+      "code": "OKOK",
+      "name": "Oklahoma Regional",
+      "week": 1,
+      "location": "Enid, OK USA",
+      "date_start": "3/3/2027",
+      "date_range": "3/3 to 3/6",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 1,
+      "location_2026": "Enid, OK USA",
+      "epa": {
+        "event_key": "2026okok",
+        "team_count": 46,
+        "max": 172.17,
+        "top8_avg": 109.97,
+        "top24_avg": 71.45,
+        "mean": 47.54,
+        "median": 41.5
+      },
+      "epa_source": "2026 Oklahoma Regional"
+    },
+    {
+      "code": "ARLI",
+      "name": "Arkansas Regional",
+      "week": 2,
+      "location": "Searcy, AR USA",
+      "date_start": "3/10/2027",
+      "date_range": "3/10 to 3/13",
+      "capacity": 25,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Searcy, AR USA",
+      "epa": {
+        "event_key": "2026arli",
+        "team_count": 25,
+        "max": 176.13,
+        "top8_avg": 118.29,
+        "top24_avg": 57.68,
+        "mean": 55.59,
+        "median": 36.46
+      },
+      "epa_source": "2026 Arkansas Regional"
+    },
+    {
+      "code": "CNGU1",
+      "name": "Guangzhou Regional",
+      "week": 2,
+      "location": "Guangzhou, GD China",
+      "date_start": "3/11/2027",
+      "date_range": "3/11 to 3/14",
+      "capacity": 5,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "proxy",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": {
+        "event_key": "2026cnsh",
+        "team_count": 50,
+        "max": 201.08,
+        "top8_avg": 134.34,
+        "top24_avg": 95.07,
+        "mean": 60.77,
+        "median": 50.61
+      },
+      "epa_source": "2026 上海赛区 (Shanghai Regional)"
+    },
+    {
+      "code": "CTTC",
+      "name": "Taipei City Regional",
+      "week": 2,
+      "location": "Taipei City, NWT Chinese Taipei",
+      "date_start": "3/11/2027",
+      "date_range": "3/11 to 3/14",
+      "capacity": 0,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
+    },
+    {
+      "code": "NDGF",
+      "name": "Great Northern Regional",
+      "week": 2,
+      "location": "Grand Forks, ND USA",
+      "date_start": "3/10/2027",
+      "date_range": "3/10 to 3/13",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 2,
+      "location_2026": "Grand Forks, ND USA",
+      "epa": {
+        "event_key": "2026ndgf",
+        "team_count": 51,
+        "max": 116.8,
+        "top8_avg": 96.24,
+        "top24_avg": 73.76,
+        "mean": 46.58,
+        "median": 32.84
+      },
+      "epa_source": "2026 Great Northern Regional"
+    },
+    {
+      "code": "AZVA",
+      "name": "AZ Valley Regional presented by Microchip and the Sanghi Family Foundation",
+      "week": 3,
+      "location": "Tempe, AZ USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 32,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
+    },
+    {
+      "code": "CNGU2",
+      "name": "Tiangong Regional",
+      "week": 3,
+      "location": "Guangzhou, GD China",
+      "date_start": "3/18/2027",
+      "date_range": "3/18 to 3/21",
+      "capacity": 5,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "proxy",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": {
+        "event_key": "2026cnsh",
+        "team_count": 50,
+        "max": 201.08,
+        "top8_avg": 134.34,
+        "top24_avg": 95.07,
+        "mean": 60.77,
+        "median": 50.61
+      },
+      "epa_source": "2026 上海赛区 (Shanghai Regional)"
+    },
+    {
+      "code": "FLOR",
+      "name": "Orlando Regional",
+      "week": 3,
+      "location": "Orlando, FL USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 44,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Orlando, FL USA",
+      "epa": {
+        "event_key": "2026flor",
+        "team_count": 58,
+        "max": 202.2,
+        "top8_avg": 108.02,
+        "top24_avg": 68.46,
+        "mean": 39.17,
+        "median": 27.76
+      },
+      "epa_source": "2026 Orlando Regional"
+    },
+    {
+      "code": "KSLA",
+      "name": "Heartland Regional",
+      "week": 3,
+      "location": "Shawnee, KS USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 27,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Shawnee, KS USA",
+      "epa": {
+        "event_key": "2026ksla",
+        "team_count": 41,
+        "max": 180.32,
+        "top8_avg": 93.83,
+        "top24_avg": 58.01,
+        "mean": 39.64,
+        "median": 31.29
+      },
+      "epa_source": "2026 Heartland Regional"
+    },
+    {
+      "code": "MSLR",
+      "name": "Magnolia Regional",
+      "week": 3,
+      "location": "Laurel, MS USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Laurel, MS USA",
+      "epa": {
+        "event_key": "2026mslr",
+        "team_count": 46,
+        "max": 181.71,
+        "top8_avg": 104.1,
+        "top24_avg": 66.16,
+        "mean": 42.11,
+        "median": 29.31
+      },
+      "epa_source": "2026 Magnolia Regional"
+    },
+    {
+      "code": "MXTO",
+      "name": "Regional Laguna presented by Peñoles",
+      "week": 3,
+      "location": "Torreón, COA Mexico",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 12,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 4,
+      "location_2026": "Torreón, COA Mexico",
+      "epa": {
+        "event_key": "2026mxto",
+        "team_count": 46,
+        "max": 185.97,
+        "top8_avg": 116.46,
+        "top24_avg": 65.32,
+        "mean": 42.61,
+        "median": 27.24
+      },
+      "epa_source": "2026 Regional Laguna presented by Peñoles"
+    },
+    {
+      "code": "PACA",
+      "name": "Greater Pittsburgh Regional",
+      "week": 3,
+      "location": "Pittsburgh, PA USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 44,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Pittsburgh, PA USA",
+      "epa": {
+        "event_key": "2026paca",
+        "team_count": 50,
+        "max": 197.41,
+        "top8_avg": 135.52,
+        "top24_avg": 80.46,
+        "mean": 49.82,
+        "median": 35.59
+      },
+      "epa_source": "2026 Greater Pittsburgh Regional"
+    },
+    {
+      "code": "TNKN",
+      "name": "Smoky Mountains Regional",
+      "week": 3,
+      "location": "Sevierville, TN USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Sevierville, TN USA",
+      "epa": {
+        "event_key": "2026tnkn",
+        "team_count": 46,
+        "max": 147.35,
+        "top8_avg": 99.64,
+        "top24_avg": 60.69,
+        "mean": 39.88,
+        "median": 27.96
+      },
+      "epa_source": "2026 Smoky Mountains Regional"
+    },
+    {
+      "code": "IACF",
+      "name": "Iowa Regional",
+      "week": 4,
+      "location": "Cedar Falls, IA USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 39,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 4,
+      "location_2026": "Cedar Falls, IA USA",
+      "epa": {
+        "event_key": "2026iacf",
+        "team_count": 53,
+        "max": 166.49,
+        "top8_avg": 137.86,
+        "top24_avg": 87.1,
+        "mean": 51.46,
+        "median": 33.74
+      },
+      "epa_source": "2026 Iowa Regional"
+    },
+    {
+      "code": "IMWR",
+      "name": "Intermountain West Regional",
+      "week": 4,
+      "location": "Nampa, ID USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 33,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "proxy",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": {
+        "event_key": "2026idbo",
+        "team_count": 35,
+        "max": 209.82,
+        "top8_avg": 126.03,
+        "top24_avg": 70.5,
+        "mean": 54.26,
+        "median": 42.48
+      },
+      "epa_source": "2026 爱达荷赛区 (Idaho Regional)"
+    },
+    {
+      "code": "MNMI",
+      "name": "Minnesota 10,000 Lakes Regional",
+      "week": 4,
+      "location": "St. Paul, MN USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged_venue_moved",
+      "data_status": "direct",
+      "week_2026": 4,
+      "location_2026": "Minneapolis, MN USA",
+      "epa": {
+        "event_key": "2026mnmi",
+        "team_count": 51,
+        "max": 141.44,
+        "top8_avg": 95.11,
+        "top24_avg": 64.35,
+        "mean": 42.46,
+        "median": 34.53
+      },
+      "epa_source": "2026 Minnesota 10,000 Lakes Regional"
+    },
+    {
+      "code": "NYTR",
+      "name": "New York Tech Valley Regional",
+      "week": 4,
+      "location": "Albany, NY USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 38,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 7,
+      "location_2026": "Albany, NY USA",
+      "epa": {
+        "event_key": "2026nytr",
+        "team_count": 60,
+        "max": 251.4,
+        "top8_avg": 160.21,
+        "top24_avg": 111.26,
+        "mean": 65.31,
+        "median": 50.98
+      },
+      "epa_source": "2026 New York Tech Valley Regional"
+    },
+    {
+      "code": "LAKE",
+      "name": "Bayou Regional",
+      "week": 5,
+      "location": "Westwego, LA USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 46,
+      "registered": 0,
+      "status": "unchanged_venue_moved",
+      "data_status": "direct",
+      "week_2026": 5,
+      "location_2026": "Kenner, LA USA",
+      "epa": {
+        "event_key": "2026lake",
+        "team_count": 53,
+        "max": 223.1,
+        "top8_avg": 148.83,
+        "top24_avg": 91.33,
+        "mean": 53.18,
+        "median": 36.09
+      },
+      "epa_source": "2026 Bayou Regional"
+    },
+    {
+      "code": "MNUM",
+      "name": "Minnesota North Star Regional",
+      "week": 5,
+      "location": "Minnetonka, MN USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged_venue_moved",
+      "data_status": "direct",
+      "week_2026": 5,
+      "location_2026": "Minneapolis, MN USA",
+      "epa": {
+        "event_key": "2026mnum",
+        "team_count": 47,
+        "max": 156.63,
+        "top8_avg": 114.06,
+        "top24_avg": 73.6,
+        "mean": 47.83,
+        "median": 37.4
+      },
+      "epa_source": "2026 Minnesota North Star Regional"
+    },
+    {
+      "code": "MOSE",
+      "name": "City of Fountains Regional",
+      "week": 5,
+      "location": "Riverside, MO USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 27,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 5,
+      "location_2026": "Riverside, MO USA",
+      "epa": {
+        "event_key": "2026mose",
+        "team_count": 40,
+        "max": 222.77,
+        "top8_avg": 132.34,
+        "top24_avg": 82.3,
+        "mean": 58.75,
+        "median": 46.41
+      },
+      "epa_source": "2026 City of Fountains Regional"
+    },
+    {
+      "code": "NVLV",
+      "name": "Las Vegas Regional",
+      "week": 5,
+      "location": "Las Vegas, NV USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 35,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "Las Vegas, NV USA",
+      "epa": {
+        "event_key": "2026nvlv",
+        "team_count": 45,
+        "max": 197.06,
+        "top8_avg": 126.76,
+        "top24_avg": 85.25,
+        "mean": 56.37,
+        "median": 40.08
+      },
+      "epa_source": "2026 Las Vegas Regional"
+    },
+    {
+      "code": "NYSU",
+      "name": "Hudson Valley Regional",
+      "week": 5,
+      "location": "Suffern, NY USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 38,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 3,
+      "location_2026": "Suffern, NY USA",
+      "epa": {
+        "event_key": "2026nysu",
+        "team_count": 48,
+        "max": 176.85,
+        "top8_avg": 89.6,
+        "top24_avg": 59.45,
+        "mean": 39.06,
+        "median": 30.7
+      },
+      "epa_source": "2026 Hudson Valley Regional"
+    },
+    {
+      "code": "ALHU",
+      "name": "Rocket City Regional",
+      "week": 6,
+      "location": "Huntsville, AL USA",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 40,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "Huntsville, AL USA",
+      "epa": {
+        "event_key": "2026alhu",
+        "team_count": 48,
+        "max": 292.5,
+        "top8_avg": 154.93,
+        "top24_avg": 97.52,
+        "mean": 63.72,
+        "median": 44.11
+      },
+      "epa_source": "2026 Rocket City Regional"
+    },
+    {
+      "code": "CODE",
+      "name": "Denver Regional",
+      "week": 6,
+      "location": "Denver, CO USA",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 25,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "Denver, CO USA",
+      "epa": {
+        "event_key": "2026code",
+        "team_count": 55,
+        "max": 208.03,
+        "top8_avg": 160.21,
+        "top24_avg": 103.42,
+        "mean": 63.14,
+        "median": 49.27
+      },
+      "epa_source": "2026 Denver Regional"
+    },
+    {
+      "code": "MNMI2",
+      "name": "Minnesota Granite City Regional",
+      "week": 6,
+      "location": "St. Cloud, MN USA",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "St. Cloud, MN USA",
+      "epa": {
+        "event_key": "2026mnmi2",
+        "team_count": 51,
+        "max": 153.81,
+        "top8_avg": 126.35,
+        "top24_avg": 87.69,
+        "mean": 53.97,
+        "median": 38.45
+      },
+      "epa_source": "2026 Minnesota Granite City Regional"
+    },
+    {
+      "code": "MOKC",
+      "name": "Greater Kansas City Regional",
+      "week": 6,
+      "location": "Lee's Summit, MO USA",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 26,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "Lee's Summit, MO USA",
+      "epa": {
+        "event_key": "2026mokc",
+        "team_count": 41,
+        "max": 239.98,
+        "top8_avg": 149.13,
+        "top24_avg": 87.16,
+        "mean": 60.1,
+        "median": 44.63
+      },
+      "epa_source": "2026 Greater Kansas City Regional"
+    },
+    {
+      "code": "NYNY",
+      "name": "New York City Regional",
+      "week": 6,
+      "location": "New York, NY USA",
+      "date_start": "4/8/2027",
+      "date_range": "4/8 to 4/11",
+      "capacity": 0,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "direct",
+      "week_2026": 6,
+      "location_2026": "New York, NY USA",
+      "epa": {
+        "event_key": "2026nyny",
+        "team_count": 51,
+        "max": 250.3,
+        "top8_avg": 129.34,
+        "top24_avg": 75.79,
+        "mean": 44.85,
+        "median": 29.1
+      },
+      "epa_source": "2026 New York City Regional"
+    },
+    {
+      "code": "OKTU",
+      "name": "Green Country Regional",
+      "week": 6,
+      "location": "Tulsa, OK USA",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 36,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "direct",
+      "week_2026": 5,
+      "location_2026": "Tulsa, OK USA",
+      "epa": {
+        "event_key": "2026oktu",
+        "team_count": 46,
+        "max": 245.51,
+        "top8_avg": 126.27,
+        "top24_avg": 84.29,
+        "mean": 58.01,
+        "median": 44.88
+      },
+      "epa_source": "2026 Green Country Regional"
+    }
+  ],
+  "week_changes": [
+    {
+      "code": "MXMO",
+      "name": "Regional Monterrey presented by PrepaTec",
+      "location": "Monterrey, MEX Mexico",
+      "week_2026": 2,
+      "week_2027": 1,
+      "change": -1
+    },
+    {
+      "code": "ARLI",
+      "name": "Arkansas Regional",
+      "location": "Searcy, AR USA",
+      "week_2026": 3,
+      "week_2027": 2,
+      "change": -1
+    },
+    {
+      "code": "MXTO",
+      "name": "Regional Laguna presented by Peñoles",
+      "location": "Torreón, COA Mexico",
+      "week_2026": 4,
+      "week_2027": 3,
+      "change": -1
+    },
+    {
+      "code": "NYTR",
+      "name": "New York Tech Valley Regional",
+      "location": "Albany, NY USA",
+      "week_2026": 7,
+      "week_2027": 4,
+      "change": -3
+    },
+    {
+      "code": "NVLV",
+      "name": "Las Vegas Regional",
+      "location": "Las Vegas, NV USA",
+      "week_2026": 6,
+      "week_2027": 5,
+      "change": -1
+    },
+    {
+      "code": "NYSU",
+      "name": "Hudson Valley Regional",
+      "location": "Suffern, NY USA",
+      "week_2026": 3,
+      "week_2027": 5,
+      "change": 2
+    },
+    {
+      "code": "OKTU",
+      "name": "Green Country Regional",
+      "location": "Tulsa, OK USA",
+      "week_2026": 5,
+      "week_2027": 6,
+      "change": 1
+    }
+  ],
+  "discontinued": [
+    {
+      "code": "BCVI",
+      "name": "Canadian Pacific Regional",
+      "location": "Vancouver, BC Canada",
+      "week_2026": 1
+    },
+    {
+      "code": "BRBA",
+      "name": "Regional Brazil - Festival SESI de Educação",
+      "location": "São Paulo, SP Brazil",
+      "week_2026": 1
+    },
+    {
+      "code": "TUIS",
+      "name": "İstanbul Regional",
+      "location": "Başakşehir / İstanbul, 34 Türkiye",
+      "week_2026": 1
+    },
+    {
+      "code": "TUIS2",
+      "name": "Bosphorus Regional",
+      "location": "Başakşehir / İstanbul, 34 Türkiye",
+      "week_2026": 1
+    },
+    {
+      "code": "AUSC",
+      "name": "Southern Cross Regional",
+      "location": "Cambridge Park, NSW Australia",
+      "week_2026": 2
+    },
+    {
+      "code": "AZFG",
+      "name": "Arizona North Regional",
+      "location": "Flagstaff, AZ USA",
+      "week_2026": 2
+    },
+    {
+      "code": "BRSP",
+      "name": "Regional Brazil - SESI OSASCO",
+      "location": "Osasco, SP Brazil",
+      "week_2026": 2
+    },
+    {
+      "code": "CNSH",
+      "name": "Shanghai Regional",
+      "location": "Minhang District, SH China",
+      "week_2026": 2
+    },
+    {
+      "code": "NYRO",
+      "name": "Finger Lakes Regional",
+      "location": "Rochester, NY USA",
+      "week_2026": 2
+    },
+    {
+      "code": "TUIS4",
+      "name": "Yeditepe Regional",
+      "location": "Başakşehir / İstanbul, 34 Türkiye",
+      "week_2026": 2
+    },
+    {
+      "code": "HIHO",
+      "name": "Hawaii Regional",
+      "location": "Honolulu, HI USA",
+      "week_2026": 3
+    },
+    {
+      "code": "ILPE",
+      "name": "Central Illinois Regional",
+      "location": "Peoria, IL USA",
+      "week_2026": 3
+    },
+    {
+      "code": "NYLI2",
+      "name": "FIRST Long Island Regional",
+      "location": "Hempstead, NY USA",
+      "week_2026": 3
+    },
+    {
+      "code": "OHCL",
+      "name": "Buckeye Regional",
+      "location": "Cleveland, OH USA",
+      "week_2026": 3
+    },
+    {
+      "code": "IDBO",
+      "name": "Idaho Regional",
+      "location": "Nampa, ID USA",
+      "week_2026": 4
+    },
+    {
+      "code": "ILCH",
+      "name": "Midwest Regional Presented by Baxter",
+      "location": "Arlington Heights, IL USA",
+      "week_2026": 4
+    },
+    {
+      "code": "MOSL",
+      "name": "St. Louis Regional",
+      "location": "St. Louis, MO USA",
+      "week_2026": 4
+    },
+    {
+      "code": "TUHC",
+      "name": "Haliç Regional",
+      "location": "Bakırköy / İstanbul, 34 Türkiye",
+      "week_2026": 4
+    },
+    {
+      "code": "TUIS3",
+      "name": "Marmara Regional",
+      "location": "Bakırköy / İstanbul, 34 Türkiye",
+      "week_2026": 4
+    },
+    {
+      "code": "OHMV",
+      "name": "Miami Valley Regional",
+      "location": "Cincinnati, OH USA",
+      "week_2026": 5
+    },
+    {
+      "code": "TUIS5",
+      "name": "Avrasya Regional",
+      "location": "Bakırköy / İstanbul, 34 Türkiye",
+      "week_2026": 5
+    },
+    {
+      "code": "FLWP",
+      "name": "South Florida Regional",
+      "location": "Coral Gables, FL USA",
+      "week_2026": 6
+    },
+    {
+      "code": "NYN2",
+      "name": "Gotham Regional",
+      "location": "New York, NY USA",
+      "week_2026": 6
+    },
+    {
+      "code": "QCMO",
+      "name": "Festival de Robotique Regional",
+      "location": "Dorval, QC Canada",
+      "week_2026": 6
+    },
+    {
+      "code": "TUAK",
+      "name": "Ankara Regional",
+      "location": "Etimesgut / Ankara, 06 Türkiye",
+      "week_2026": 6
+    },
+    {
+      "code": "TUAK2",
+      "name": "Başkent Regional",
+      "location": "Etimesgut / Ankara, 06 Türkiye",
+      "week_2026": 6
+    },
+    {
+      "code": "FLTA",
+      "name": "Tallahassee Regional",
+      "location": "Tallahassee, FL USA",
+      "week_2026": 7
+    },
+    {
+      "code": "UTWV",
+      "name": "Utah Regional",
+      "location": "West Valley City, UT USA",
+      "week_2026": 7
+    }
+  ]
+}
