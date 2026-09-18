@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-09-08 22:31:03 +0800",
-    "event_count_2027": 33,
+    "generated_at": "2026-09-18 22:54:32 +0800",
+    "event_count_2027": 42,
     "event_count_2026": 56,
-    "new_event_count": 5,
-    "week_changed_count": 7,
-    "discontinued_count": 28,
+    "new_event_count": 6,
+    "week_changed_count": 9,
+    "discontinued_count": 20,
     "sources": [
       "https://frc-events.firstinspires.org/2027/Events/EventList?filter=REG",
       "https://api.statbotics.io/v3 (2026 赛季 EPA)"
     ],
-    "epa_note": "EPA 统计基于 2026 赛季对应赛事的 epa.total_points；广州 CNGU1/CNGU2 参考 2026 上海赛区，IMWR 参考 2026 爱达荷赛区。"
+    "epa_note": "EPA 统计基于 2026 赛季对应赛事的 epa.total_points；广州 CNGU1/CNGU2 参考 2026 上海赛区，IMWR 参考 2026 爱达荷赛区。 9月18日新增 8 个回归赛区的 EPA 因 Statbotics API 故障暂未收录，待补录。"
   },
   "events": [
     {
@@ -182,6 +182,23 @@
       "epa_source": "2026 Arkansas Regional"
     },
     {
+      "code": "AUSC",
+      "name": "Southern Cross Regional",
+      "week": 2,
+      "location": "Cambridge Park, NSW Australia",
+      "date_start": "3/11/2027",
+      "date_range": "3/11 to 3/14",
+      "capacity": 32,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 2,
+      "location_2026": "Cambridge Park, NSW Australia",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026ausc"
+    },
+    {
       "code": "CNGU1",
       "name": "Guangzhou Regional",
       "week": 2,
@@ -220,6 +237,23 @@
       "location_2026": null,
       "epa": null,
       "epa_source": null
+    },
+    {
+      "code": "MOSL",
+      "name": "St. Louis Regional",
+      "week": 2,
+      "location": "St. Louis, MO USA",
+      "date_start": "3/10/2027",
+      "date_range": "3/10 to 3/13",
+      "capacity": 35,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 4,
+      "location_2026": "St. Louis, MO USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026mosl"
     },
     {
       "code": "NDGF",
@@ -310,6 +344,40 @@
       "epa_source": "2026 Orlando Regional"
     },
     {
+      "code": "HIHO",
+      "name": "Hawaii Regional",
+      "week": 3,
+      "location": "Honolulu, HI USA",
+      "date_start": "3/18/2027",
+      "date_range": "3/18 to 3/21",
+      "capacity": 24,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 3,
+      "location_2026": "Honolulu, HI USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026hiho"
+    },
+    {
+      "code": "ILPE",
+      "name": "Central Illinois Regional",
+      "week": 3,
+      "location": "Peoria, IL USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 21,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 3,
+      "location_2026": "Peoria, IL USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026ilpe"
+    },
+    {
       "code": "KSLA",
       "name": "Heartland Regional",
       "week": 3,
@@ -380,6 +448,23 @@
         "median": 27.24
       },
       "epa_source": "2026 Regional Laguna presented by Peñoles"
+    },
+    {
+      "code": "NYLI2",
+      "name": "FIRST Long Island Regional",
+      "week": 3,
+      "location": "Hempstead, NY USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 3,
+      "location_2026": "Hempstead, NY USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026nyli2"
     },
     {
       "code": "PACA",
@@ -454,6 +539,23 @@
       "epa_source": "2026 Iowa Regional"
     },
     {
+      "code": "ILCH",
+      "name": "Midwest Regional",
+      "week": 4,
+      "location": "Arlington Heights, IL USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 25,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 4,
+      "location_2026": "Arlington Heights, IL USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026ilch"
+    },
+    {
       "code": "IMWR",
       "name": "Intermountain West Regional",
       "week": 4,
@@ -524,6 +626,23 @@
         "median": 50.98
       },
       "epa_source": "2026 New York Tech Valley Regional"
+    },
+    {
+      "code": "AZFG",
+      "name": "AZ North Regional presented by Microchip",
+      "week": 5,
+      "location": "Flagstaff, AZ USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 50,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 2,
+      "location_2026": "Flagstaff, AZ USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026azfg"
     },
     {
       "code": "LAKE",
@@ -742,6 +861,23 @@
       "epa_source": "2026 Greater Kansas City Regional"
     },
     {
+      "code": "NYN2",
+      "name": "Gotham Regional",
+      "week": 6,
+      "location": "New York, NY USA",
+      "date_start": "4/5/2027",
+      "date_range": "4/5 to 4/7",
+      "capacity": 26,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 6,
+      "location_2026": "New York, NY USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026nyn2"
+    },
+    {
       "code": "NYNY",
       "name": "New York City Regional",
       "week": 6,
@@ -788,6 +924,22 @@
         "median": 44.88
       },
       "epa_source": "2026 Green Country Regional"
+    },
+    {
+      "code": "MXLE",
+      "name": "Regional Leon",
+      "week": 7,
+      "location": "Leon de los Aldama, GUA Mexico",
+      "date_start": "4/14/2027",
+      "date_range": "4/14 to 4/17",
+      "capacity": 22,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
     }
   ],
   "week_changes": [
@@ -846,6 +998,22 @@
       "week_2026": 5,
       "week_2027": 6,
       "change": 1
+    },
+    {
+      "code": "MOSL",
+      "name": "St. Louis Regional",
+      "location": "St. Louis, MO USA",
+      "week_2026": 4,
+      "week_2027": 2,
+      "change": -2
+    },
+    {
+      "code": "AZFG",
+      "name": "AZ North Regional presented by Microchip",
+      "location": "Flagstaff, AZ USA",
+      "week_2026": 2,
+      "week_2027": 5,
+      "change": 3
     }
   ],
   "discontinued": [
@@ -874,18 +1042,6 @@
       "week_2026": 1
     },
     {
-      "code": "AUSC",
-      "name": "Southern Cross Regional",
-      "location": "Cambridge Park, NSW Australia",
-      "week_2026": 2
-    },
-    {
-      "code": "AZFG",
-      "name": "Arizona North Regional",
-      "location": "Flagstaff, AZ USA",
-      "week_2026": 2
-    },
-    {
       "code": "BRSP",
       "name": "Regional Brazil - SESI OSASCO",
       "location": "Osasco, SP Brazil",
@@ -910,24 +1066,6 @@
       "week_2026": 2
     },
     {
-      "code": "HIHO",
-      "name": "Hawaii Regional",
-      "location": "Honolulu, HI USA",
-      "week_2026": 3
-    },
-    {
-      "code": "ILPE",
-      "name": "Central Illinois Regional",
-      "location": "Peoria, IL USA",
-      "week_2026": 3
-    },
-    {
-      "code": "NYLI2",
-      "name": "FIRST Long Island Regional",
-      "location": "Hempstead, NY USA",
-      "week_2026": 3
-    },
-    {
       "code": "OHCL",
       "name": "Buckeye Regional",
       "location": "Cleveland, OH USA",
@@ -937,18 +1075,6 @@
       "code": "IDBO",
       "name": "Idaho Regional",
       "location": "Nampa, ID USA",
-      "week_2026": 4
-    },
-    {
-      "code": "ILCH",
-      "name": "Midwest Regional Presented by Baxter",
-      "location": "Arlington Heights, IL USA",
-      "week_2026": 4
-    },
-    {
-      "code": "MOSL",
-      "name": "St. Louis Regional",
-      "location": "St. Louis, MO USA",
       "week_2026": 4
     },
     {
@@ -979,12 +1105,6 @@
       "code": "FLWP",
       "name": "South Florida Regional",
       "location": "Coral Gables, FL USA",
-      "week_2026": 6
-    },
-    {
-      "code": "NYN2",
-      "name": "Gotham Regional",
-      "location": "New York, NY USA",
       "week_2026": 6
     },
     {
