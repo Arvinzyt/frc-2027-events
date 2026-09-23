@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-09-18 22:54:32 +0800",
-    "event_count_2027": 42,
+    "generated_at": "2026-09-23 19:51:37 +0800",
+    "event_count_2027": 60,
     "event_count_2026": 56,
-    "new_event_count": 6,
-    "week_changed_count": 9,
-    "discontinued_count": 20,
+    "new_event_count": 11,
+    "week_changed_count": 18,
+    "discontinued_count": 7,
     "sources": [
       "https://frc-events.firstinspires.org/2027/Events/EventList?filter=REG",
       "https://api.statbotics.io/v3 (2026 赛季 EPA)"
@@ -13,6 +13,23 @@
     "epa_note": "EPA 统计基于 2026 赛季对应赛事的 epa.total_points；广州 CNGU1/CNGU2 参考 2026 上海赛区，IMWR 参考 2026 爱达荷赛区。 9月18日新增 8 个回归赛区的 EPA 因 Statbotics API 故障暂未收录，待补录。"
   },
   "events": [
+    {
+      "code": "BRSP",
+      "name": "Regional Brazil - SESI Indaiatuba",
+      "week": 1,
+      "location": "Indaiatuba, SP Brazil",
+      "date_start": "3/4/2027",
+      "date_range": "3/4 to 3/7",
+      "capacity": 26,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 2,
+      "location_2026": "Osasco, SP Brazil",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026brsp"
+    },
     {
       "code": "COSP",
       "name": "Pikes Peak Regional",
@@ -205,7 +222,7 @@
       "location": "Guangzhou, GD China",
       "date_start": "3/11/2027",
       "date_range": "3/11 to 3/14",
-      "capacity": 5,
+      "capacity": 30,
       "registered": 0,
       "status": "new_2027",
       "data_status": "proxy",
@@ -280,6 +297,23 @@
       "epa_source": "2026 Great Northern Regional"
     },
     {
+      "code": "NYRO",
+      "name": "Finger Lakes Regional",
+      "week": 2,
+      "location": "Rochester, NY USA",
+      "date_start": "3/10/2027",
+      "date_range": "3/10 to 3/13",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 2,
+      "location_2026": "Rochester, NY USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026nyro"
+    },
+    {
       "code": "AZVA",
       "name": "AZ Valley Regional presented by Microchip and the Sanghi Family Foundation",
       "week": 3,
@@ -296,13 +330,30 @@
       "epa_source": null
     },
     {
+      "code": "BRBA",
+      "name": "Regional Brazil - Festival SESI de Robotica - Salvador",
+      "week": 3,
+      "location": "Salvador, BA Brazil",
+      "date_start": "3/18/2027",
+      "date_range": "3/18 to 3/21",
+      "capacity": 38,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 1,
+      "location_2026": "Sao Paulo, SP Brazil",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026brba"
+    },
+    {
       "code": "CNGU2",
       "name": "Tiangong Regional",
       "week": 3,
       "location": "Guangzhou, GD China",
       "date_start": "3/18/2027",
       "date_range": "3/18 to 3/21",
-      "capacity": 5,
+      "capacity": 30,
       "registered": 0,
       "status": "new_2027",
       "data_status": "proxy",
@@ -467,6 +518,23 @@
       "epa_pending_key": "2026nyli2"
     },
     {
+      "code": "OHCL",
+      "name": "Buckeye Regional",
+      "week": 3,
+      "location": "Cleveland, OH USA",
+      "date_start": "3/17/2027",
+      "date_range": "3/17 to 3/20",
+      "capacity": 45,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 3,
+      "location_2026": "Cleveland, OH USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026ohcl"
+    },
+    {
       "code": "PACA",
       "name": "Greater Pittsburgh Regional",
       "week": 3,
@@ -515,6 +583,40 @@
       "epa_source": "2026 Smoky Mountains Regional"
     },
     {
+      "code": "TUAK",
+      "name": "Ankara Regional",
+      "week": 3,
+      "location": "Cankaya / Ankara, 06 Turkiye",
+      "date_start": "3/19/2027",
+      "date_range": "3/19 to 3/21",
+      "capacity": 26,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 6,
+      "location_2026": "Etimesgut / Ankara, 06 Turkiye",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026tuak"
+    },
+    {
+      "code": "BCVI",
+      "name": "Canadian Pacific Regional",
+      "week": 4,
+      "location": "Langley, BC Canada",
+      "date_start": "3/23/2027",
+      "date_range": "3/23 to 3/26",
+      "capacity": 23,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 1,
+      "location_2026": "Vancouver, BC Canada",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026bcvi"
+    },
+    {
       "code": "IACF",
       "name": "Iowa Regional",
       "week": 4,
@@ -540,7 +642,7 @@
     },
     {
       "code": "ILCH",
-      "name": "Midwest Regional",
+      "name": "Midwest Regional Presented By Baxter",
       "week": 4,
       "location": "Arlington Heights, IL USA",
       "date_start": "3/24/2027",
@@ -562,7 +664,7 @@
       "location": "Nampa, ID USA",
       "date_start": "3/24/2027",
       "date_range": "3/24 to 3/27",
-      "capacity": 33,
+      "capacity": 28,
       "registered": 0,
       "status": "new_2027",
       "data_status": "proxy",
@@ -628,6 +730,73 @@
       "epa_source": "2026 New York Tech Valley Regional"
     },
     {
+      "code": "OHMV",
+      "name": "Miami Valley Regional",
+      "week": 4,
+      "location": "Hamilton, OH USA",
+      "date_start": "3/24/2027",
+      "date_range": "3/24 to 3/27",
+      "capacity": 40,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 5,
+      "location_2026": "Cincinnati, OH USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026ohmv"
+    },
+    {
+      "code": "TUIS",
+      "name": "Istanbul Regional",
+      "week": 4,
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "date_start": "3/26/2027",
+      "date_range": "3/26 to 3/28",
+      "capacity": 46,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 1,
+      "location_2026": "Bakirkoy / Istanbul, 34 Turkiye",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026tuis"
+    },
+    {
+      "code": "TUIS2",
+      "name": "Bosphorus Regional",
+      "week": 4,
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "date_start": "3/26/2027",
+      "date_range": "3/26 to 3/28",
+      "capacity": 46,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 1,
+      "location_2026": "Bakirkoy / Istanbul, 34 Turkiye",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026tuis2"
+    },
+    {
+      "code": "ABCA",
+      "name": "Canadian Rockies Regional",
+      "week": 5,
+      "location": "Calgary, AB Canada",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 22,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
+    },
+    {
       "code": "AZFG",
       "name": "AZ North Regional presented by Microchip",
       "week": 5,
@@ -643,6 +812,22 @@
       "epa": null,
       "epa_source": "Statbotics API 暂不可用，待补录",
       "epa_pending_key": "2026azfg"
+    },
+    {
+      "code": "BRMT",
+      "name": "Regional Brazil - Mato Grosso - Cuiaba",
+      "week": 5,
+      "location": "Cuiaba, MT Brazil",
+      "date_start": "3/29/2027",
+      "date_range": "3/29 to 4/1",
+      "capacity": 18,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
     },
     {
       "code": "LAKE",
@@ -763,6 +948,56 @@
         "median": 30.7
       },
       "epa_source": "2026 Hudson Valley Regional"
+    },
+    {
+      "code": "TUHC",
+      "name": "Halic Regional",
+      "week": 5,
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "date_start": "4/2/2027",
+      "date_range": "4/2 to 4/4",
+      "capacity": 46,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 4,
+      "location_2026": "Bakirkoy / Istanbul, 34 Turkiye",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026tuhc"
+    },
+    {
+      "code": "TUIS3",
+      "name": "Marmara Regional",
+      "week": 5,
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "date_start": "4/2/2027",
+      "date_range": "4/2 to 4/4",
+      "capacity": 46,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 4,
+      "location_2026": "Bakirkoy / Istanbul, 34 Turkiye",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026tuis3"
+    },
+    {
+      "code": "WEUR",
+      "name": "Western European Regional",
+      "week": 5,
+      "location": "Eindhoven, NB Netherlands",
+      "date_start": "4/1/2027",
+      "date_range": "4/1 to 4/4",
+      "capacity": 26,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
     },
     {
       "code": "ALHU",
@@ -926,6 +1161,56 @@
       "epa_source": "2026 Green Country Regional"
     },
     {
+      "code": "QCMO",
+      "name": "Festival de Robotique Regional",
+      "week": 6,
+      "location": "Dorval, QC Canada",
+      "date_start": "4/7/2027",
+      "date_range": "4/7 to 4/10",
+      "capacity": 30,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 6,
+      "location_2026": "Dorval, QC Canada",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026qcmo"
+    },
+    {
+      "code": "TUIZ",
+      "name": "Izmir Regional",
+      "week": 6,
+      "location": "Urla / Izmir, 35 Turkiye",
+      "date_start": "4/9/2027",
+      "date_range": "4/9 to 4/11",
+      "capacity": 30,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
+    },
+    {
+      "code": "FLTA",
+      "name": "Tallahassee Regional",
+      "week": 7,
+      "location": "Tallahassee, FL USA",
+      "date_start": "4/15/2027",
+      "date_range": "4/15 to 4/18",
+      "capacity": 38,
+      "registered": 0,
+      "status": "unchanged",
+      "data_status": "no_data",
+      "week_2026": 7,
+      "location_2026": "Tallahassee, FL USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026flta"
+    },
+    {
       "code": "MXLE",
       "name": "Regional Leon",
       "week": 7,
@@ -933,6 +1218,22 @@
       "date_start": "4/14/2027",
       "date_range": "4/14 to 4/17",
       "capacity": 22,
+      "registered": 0,
+      "status": "new_2027",
+      "data_status": "no_data",
+      "week_2026": null,
+      "location_2026": null,
+      "epa": null,
+      "epa_source": null
+    },
+    {
+      "code": "NYBU",
+      "name": "Buffalo Niagara Regional",
+      "week": 7,
+      "location": "Buffalo, NY USA",
+      "date_start": "4/14/2027",
+      "date_range": "4/14 to 4/17",
+      "capacity": 38,
       "registered": 0,
       "status": "new_2027",
       "data_status": "no_data",
@@ -1014,49 +1315,85 @@
       "week_2026": 2,
       "week_2027": 5,
       "change": 3
-    }
-  ],
-  "discontinued": [
+    },
     {
-      "code": "BCVI",
-      "name": "Canadian Pacific Regional",
-      "location": "Vancouver, BC Canada",
-      "week_2026": 1
+      "code": "BRSP",
+      "name": "Regional Brazil - SESI Indaiatuba",
+      "location": "Indaiatuba, SP Brazil",
+      "week_2026": 2,
+      "week_2027": 1,
+      "change": -1
     },
     {
       "code": "BRBA",
-      "name": "Regional Brazil - Festival SESI de Educação",
-      "location": "São Paulo, SP Brazil",
-      "week_2026": 1
+      "name": "Regional Brazil - Festival SESI de Robotica - Salvador",
+      "location": "Salvador, BA Brazil",
+      "week_2026": 1,
+      "week_2027": 3,
+      "change": 2
+    },
+    {
+      "code": "TUAK",
+      "name": "Ankara Regional",
+      "location": "Cankaya / Ankara, 06 Turkiye",
+      "week_2026": 6,
+      "week_2027": 3,
+      "change": -3
+    },
+    {
+      "code": "BCVI",
+      "name": "Canadian Pacific Regional",
+      "location": "Langley, BC Canada",
+      "week_2026": 1,
+      "week_2027": 4,
+      "change": 3
+    },
+    {
+      "code": "OHMV",
+      "name": "Miami Valley Regional",
+      "location": "Hamilton, OH USA",
+      "week_2026": 5,
+      "week_2027": 4,
+      "change": -1
     },
     {
       "code": "TUIS",
-      "name": "İstanbul Regional",
-      "location": "Başakşehir / İstanbul, 34 Türkiye",
-      "week_2026": 1
+      "name": "Istanbul Regional",
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "week_2026": 1,
+      "week_2027": 4,
+      "change": 3
     },
     {
       "code": "TUIS2",
       "name": "Bosphorus Regional",
-      "location": "Başakşehir / İstanbul, 34 Türkiye",
-      "week_2026": 1
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "week_2026": 1,
+      "week_2027": 4,
+      "change": 3
     },
     {
-      "code": "BRSP",
-      "name": "Regional Brazil - SESI OSASCO",
-      "location": "Osasco, SP Brazil",
-      "week_2026": 2
+      "code": "TUHC",
+      "name": "Halic Regional",
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "week_2026": 4,
+      "week_2027": 5,
+      "change": 1
     },
+    {
+      "code": "TUIS3",
+      "name": "Marmara Regional",
+      "location": "Bakirkoy / Istanbul, 34 Turkiye",
+      "week_2026": 4,
+      "week_2027": 5,
+      "change": 1
+    }
+  ],
+  "discontinued": [
     {
       "code": "CNSH",
       "name": "Shanghai Regional",
       "location": "Minhang District, SH China",
-      "week_2026": 2
-    },
-    {
-      "code": "NYRO",
-      "name": "Finger Lakes Regional",
-      "location": "Rochester, NY USA",
       "week_2026": 2
     },
     {
@@ -1066,34 +1403,10 @@
       "week_2026": 2
     },
     {
-      "code": "OHCL",
-      "name": "Buckeye Regional",
-      "location": "Cleveland, OH USA",
-      "week_2026": 3
-    },
-    {
       "code": "IDBO",
       "name": "Idaho Regional",
       "location": "Nampa, ID USA",
       "week_2026": 4
-    },
-    {
-      "code": "TUHC",
-      "name": "Haliç Regional",
-      "location": "Bakırköy / İstanbul, 34 Türkiye",
-      "week_2026": 4
-    },
-    {
-      "code": "TUIS3",
-      "name": "Marmara Regional",
-      "location": "Bakırköy / İstanbul, 34 Türkiye",
-      "week_2026": 4
-    },
-    {
-      "code": "OHMV",
-      "name": "Miami Valley Regional",
-      "location": "Cincinnati, OH USA",
-      "week_2026": 5
     },
     {
       "code": "TUIS5",
@@ -1108,28 +1421,10 @@
       "week_2026": 6
     },
     {
-      "code": "QCMO",
-      "name": "Festival de Robotique Regional",
-      "location": "Dorval, QC Canada",
-      "week_2026": 6
-    },
-    {
-      "code": "TUAK",
-      "name": "Ankara Regional",
-      "location": "Etimesgut / Ankara, 06 Türkiye",
-      "week_2026": 6
-    },
-    {
       "code": "TUAK2",
       "name": "Başkent Regional",
       "location": "Etimesgut / Ankara, 06 Türkiye",
       "week_2026": 6
-    },
-    {
-      "code": "FLTA",
-      "name": "Tallahassee Regional",
-      "location": "Tallahassee, FL USA",
-      "week_2026": 7
     },
     {
       "code": "UTWV",
