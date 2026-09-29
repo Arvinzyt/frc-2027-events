@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-09-23 19:51:37 +0800",
-    "event_count_2027": 60,
+    "generated_at": "2026-09-29 14:54:07 +0800",
+    "event_count_2027": 61,
     "event_count_2026": 56,
     "new_event_count": 11,
-    "week_changed_count": 18,
-    "discontinued_count": 7,
+    "week_changed_count": 19,
+    "discontinued_count": 6,
     "sources": [
       "https://frc-events.firstinspires.org/2027/Events/EventList?filter=REG",
       "https://api.statbotics.io/v3 (2026 赛季 EPA)"
@@ -830,6 +830,23 @@
       "epa_source": null
     },
     {
+      "code": "FLWP",
+      "name": "South Florida Regional",
+      "week": 5,
+      "location": "West Palm Beach, FL USA",
+      "date_start": "3/31/2027",
+      "date_range": "3/31 to 4/3",
+      "capacity": 30,
+      "registered": 0,
+      "status": "week_changed",
+      "data_status": "no_data",
+      "week_2026": 6,
+      "location_2026": "Coral Gables, FL USA",
+      "epa": null,
+      "epa_source": "Statbotics API 暂不可用，待补录",
+      "epa_pending_key": "2026flwp"
+    },
+    {
       "code": "LAKE",
       "name": "Bayou Regional",
       "week": 5,
@@ -1387,6 +1404,14 @@
       "week_2026": 4,
       "week_2027": 5,
       "change": 1
+    },
+    {
+      "code": "FLWP",
+      "name": "South Florida Regional",
+      "location": "West Palm Beach, FL USA",
+      "week_2026": 6,
+      "week_2027": 5,
+      "change": -1
     }
   ],
   "discontinued": [
@@ -1413,12 +1438,6 @@
       "name": "Avrasya Regional",
       "location": "Bakırköy / İstanbul, 34 Türkiye",
       "week_2026": 5
-    },
-    {
-      "code": "FLWP",
-      "name": "South Florida Regional",
-      "location": "Coral Gables, FL USA",
-      "week_2026": 6
     },
     {
       "code": "TUAK2",
