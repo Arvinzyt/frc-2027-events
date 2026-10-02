@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import type { CSSProperties } from 'react'
 import type { FrcEvent, TeamEntry } from '@/types/data'
 import {
   Table,
@@ -145,7 +146,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
     [events],
   )
 
-  // 每列最大值，用于热度底色
+  // 每列最大值，用于 EPA 列常态热度底色
   const colMax = useMemo(() => {
     const m: Record<string, number> = {}
     for (const c of EPA_COLS) {
@@ -154,9 +155,34 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
     return m
   }, [events])
 
+  const filtered = useMemo(
+    () =>
+      weekFilter === 'all' ? events : events.filter((e) => e.week === Number(weekFilter)),
+    [events, weekFilter],
+  )
+
+  // 各可排序数值列在当前筛选范围内的 min/max，用于「排序列由深到浅」渐变底色
+  const colRange = useMemo(() => {
+    const keys: SortKey[] = ['week', 'capacity', 'registered', 'with_epa', ...EPA_COLS.map((c) => c.key)]
+    const m: Record<string, { min: number; max: number }> = {}
+    for (const k of keys) {
+      const vals = filtered
+        .map((e) => sortVal(e, k))
+        .filter((v): v is number => typeof v === 'number' && v >= 0)
+      m[k] = vals.length ? { min: Math.min(...vals), max: Math.max(...vals) } : { min: 0, max: 0 }
+    }
+    return m
+  }, [filtered])
+
+  // 排序列渐变底色：值越大越深（0.06 → 0.34 alpha）；非排序列返回 undefined
+  function sortHeatStyle(key: SortKey, v: number): CSSProperties | undefined {
+    if (key !== sortKey || v < 0) return undefined
+    const { min, max } = colRange[key] ?? { min: 0, max: 0 }
+    const t = max > min ? (v - min) / (max - min) : 0.5
+    return { backgroundColor: `rgba(56, 189, 248, ${(0.06 + t * 0.28).toFixed(3)})` }
+  }
+
   const rows = useMemo(() => {
-    const filtered =
-      weekFilter === 'all' ? events : events.filter((e) => e.week === Number(weekFilter))
     return [...filtered].sort((a, b) => {
       const va = sortVal(a, sortKey)
       const vb = sortVal(b, sortKey)
@@ -166,7 +192,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
       // 次级排序：week -> code，保证稳定
       return r !== 0 ? r : (a.week ?? 99) - (b.week ?? 99) || a.code.localeCompare(b.code)
     })
-  }, [events, sortKey, sortAsc, weekFilter])
+  }, [filtered, sortKey, sortAsc])
 
   function toggleSort(key: SortKey) {
     if (key === sortKey) {
@@ -193,6 +219,11 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
     ) : (
       <ArrowDown className="ml-1 inline h-3 w-3 text-sky-400" />
     )
+  }
+
+  // 排序列表头底色提示
+  function headCls(col: SortKey, base: string): string {
+    return `${base} ${col === sortKey ? 'bg-sky-500/15 text-sky-300' : ''}`
   }
 
   return (
@@ -228,14 +259,14 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
             <TableRow className="border-zinc-800 bg-zinc-900 hover:bg-zinc-900">
               <TableHead className="w-8" />
               <TableHead
-                className="cursor-pointer text-zinc-300"
+                className={headCls('week', 'cursor-pointer text-zinc-300')}
                 onClick={() => toggleSort('week')}
               >
                 Week
                 <SortIcon col="week" />
               </TableHead>
               <TableHead
-                className="min-w-56 cursor-pointer text-zinc-300"
+                className={headCls('name', 'min-w-56 cursor-pointer text-zinc-300')}
                 onClick={() => toggleSort('name')}
               >
                 赛区
@@ -244,21 +275,21 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
               <TableHead className="min-w-44 text-zinc-300">地点</TableHead>
               <TableHead className="text-zinc-300">日期</TableHead>
               <TableHead
-                className="cursor-pointer text-right text-zinc-300"
+                className={headCls('capacity', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('capacity')}
               >
                 容量
                 <SortIcon col="capacity" />
               </TableHead>
               <TableHead
-                className="cursor-pointer text-right text-zinc-300"
+                className={headCls('registered', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('registered')}
               >
                 报名
                 <SortIcon col="registered" />
               </TableHead>
               <TableHead
-                className="cursor-pointer text-right text-zinc-300"
+                className={headCls('with_epa', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('with_epa')}
               >
                 有EPA
@@ -267,7 +298,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
               {EPA_COLS.map((c) => (
                 <TableHead
                   key={c.key}
-                  className="cursor-pointer text-right text-zinc-300"
+                  className={headCls(c.key, 'cursor-pointer text-right text-zinc-300')}
                   onClick={() => toggleSort(c.key)}
                 >
                   {c.label}
@@ -295,10 +326,19 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                       <ChevronRight className="h-4 w-4 text-zinc-600" />
                     )}
                   </TableCell>
-                  <TableCell className="font-mono font-semibold text-zinc-200">
+                  <TableCell
+                    className="font-mono font-semibold text-zinc-200"
+                    style={sortHeatStyle('week', e.week ?? -1)}
+                  >
                     W{e.week ?? '?'}
                   </TableCell>
-                  <TableCell>
+                  <TableCell
+                    style={
+                      sortKey === 'name'
+                        ? { backgroundColor: 'rgba(56, 189, 248, 0.08)' }
+                        : undefined
+                    }
+                  >
                     <div className="flex flex-wrap items-center gap-1.5">
                       <span className="font-medium text-zinc-100">{e.name}</span>
                       <StatusBadge e={e} />
@@ -309,10 +349,16 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                   <TableCell className="whitespace-nowrap font-mono text-xs text-zinc-400">
                     {e.date_range.replace(' to ', ' – ')}
                   </TableCell>
-                  <TableCell className="text-right font-mono tabular-nums text-zinc-300">
+                  <TableCell
+                    className="text-right font-mono tabular-nums text-zinc-300"
+                    style={sortHeatStyle('capacity', e.capacity ?? -1)}
+                  >
                     {e.capacity ?? '—'}
                   </TableCell>
-                  <TableCell className="text-right font-mono tabular-nums text-zinc-200">
+                  <TableCell
+                    className="text-right font-mono tabular-nums text-zinc-200"
+                    style={sortHeatStyle('registered', e.registered ?? -1)}
+                  >
                     <span className="inline-flex items-center gap-1">
                       <Users className="h-3 w-3 text-zinc-500" />
                       {e.registered ?? '—'}
@@ -320,7 +366,10 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                   </TableCell>
                   {hasEpa ? (
                     <>
-                      <TableCell className="text-right font-mono tabular-nums text-zinc-200">
+                      <TableCell
+                        className="text-right font-mono tabular-nums text-zinc-200"
+                        style={sortHeatStyle('with_epa', e.epa!.with_epa)}
+                      >
                         {e.epa!.with_epa}
                         {e.epa!.with_epa < e.epa!.registered && (
                           <span className="ml-1 text-[10px] text-zinc-500">
@@ -330,14 +379,17 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                       </TableCell>
                       {EPA_COLS.map((c) => {
                         const v = e.epa![c.key] as number
+                        const sortedStyle = sortHeatStyle(c.key, v)
                         const heat = colMax[c.key] > 0 ? v / colMax[c.key] : 0
                         return (
                           <TableCell
                             key={c.key}
                             className="text-right font-mono tabular-nums text-zinc-200"
-                            style={{
-                              backgroundColor: `rgba(56, 189, 248, ${(heat * heat * 0.16).toFixed(3)})`,
-                            }}
+                            style={
+                              sortedStyle ?? {
+                                backgroundColor: `rgba(56, 189, 248, ${(heat * heat * 0.16).toFixed(3)})`,
+                              }
+                            }
                           >
                             {v.toFixed(2)}
                           </TableCell>
