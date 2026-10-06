@@ -1,42 +1,44 @@
 import type { DataMeta } from '@/types/data'
 import { Card, CardContent } from '@/components/ui/card'
 import { CalendarDays, MapPin, Sparkles, ArrowLeftRight, RefreshCw, Users } from 'lucide-react'
+import { useLang } from '@/lib/i18n'
 
 export default function Overview({ meta }: { meta: DataMeta }) {
+  const { t } = useLang()
   const items = [
     {
       icon: MapPin,
-      label: '2027 已发布赛区',
+      label: t.cardEvents,
       value: meta.event_count_2027,
-      sub: `2026 赛季为 ${meta.event_count_2026} 个`,
+      sub: t.cardEventsSub(meta.event_count_2026),
       accent: 'text-sky-400',
     },
     {
       icon: Users,
-      label: '第一轮已报名队伍',
+      label: t.cardRegistered,
       value: meta.total_registered,
-      sub: '全部赛区合计报名队次',
+      sub: t.cardRegisteredSub,
       accent: 'text-violet-400',
     },
     {
       icon: Sparkles,
-      label: '新增赛区',
+      label: t.cardNew,
       value: meta.new_event_count,
-      sub: '2027 首次举办',
+      sub: t.cardNewSub,
       accent: 'text-emerald-400',
     },
     {
       icon: ArrowLeftRight,
-      label: 'Week 发生变化',
+      label: t.cardWeekChanged,
       value: meta.week_changed_count,
-      sub: '对比 2026 同一赛区',
+      sub: t.cardWeekChangedSub,
       accent: 'text-amber-400',
     },
     {
       icon: CalendarDays,
-      label: '取消或待定（2026）',
+      label: t.cardDiscontinued,
       value: meta.discontinued_count,
-      sub: '2026 有而 2027 暂未发布',
+      sub: t.cardDiscontinuedSub,
       accent: 'text-rose-400',
     },
   ]
@@ -64,7 +66,7 @@ export default function Overview({ meta }: { meta: DataMeta }) {
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-zinc-500">
         <span className="inline-flex items-center gap-1">
           <RefreshCw className="h-3 w-3" />
-          数据更新于 {meta.generated_at}
+          {t.updatedAt(meta.generated_at)}
         </span>
         <span>{meta.epa_note}</span>
       </div>

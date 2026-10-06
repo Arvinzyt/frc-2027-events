@@ -25,17 +25,18 @@ import {
   ChevronsUpDown,
   Users,
 } from 'lucide-react'
+import { useLang } from '@/lib/i18n'
 
 type EpaKey = 'max' | 'top8_avg' | 'top24_avg' | 'mean' | 'median'
 
 type SortKey = 'week' | 'name' | 'capacity' | 'registered' | 'with_epa' | EpaKey
 
-const EPA_COLS: { key: EpaKey; label: string }[] = [
-  { key: 'max', label: '最高' },
-  { key: 'top8_avg', label: '前8均值' },
-  { key: 'top24_avg', label: '前24均值' },
-  { key: 'mean', label: '全体均值' },
-  { key: 'median', label: '中位数' },
+const EPA_COLS: { key: EpaKey }[] = [
+  { key: 'max' },
+  { key: 'top8_avg' },
+  { key: 'top24_avg' },
+  { key: 'mean' },
+  { key: 'median' },
 ]
 
 const COL_COUNT = 7 + EPA_COLS.length // 展开 chevron + Week/赛区/地点/日期/容量/报名/有EPA + 5 EPA 列
@@ -58,10 +59,11 @@ function sortVal(e: FrcEvent, key: SortKey): number | string {
 }
 
 function StatusBadge({ e }: { e: FrcEvent }) {
+  const { t } = useLang()
   if (e.status === 'new_2027')
     return (
       <Badge className="border-emerald-500/40 bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/10">
-        新增
+        {t.badgeNew}
       </Badge>
     )
   if (e.status === 'week_changed')
@@ -73,13 +75,14 @@ function StatusBadge({ e }: { e: FrcEvent }) {
   if (e.status === 'unchanged_venue_moved')
     return (
       <Badge variant="outline" className="border-zinc-600 text-zinc-400">
-        换馆
+        {t.badgeMoved}
       </Badge>
     )
   return null
 }
 
 function TeamList({ teams }: { teams: TeamEntry[] }) {
+  const { t: dict } = useLang()
   const sorted = useMemo(
     () =>
       [...teams].sort((a, b) => {
@@ -92,7 +95,7 @@ function TeamList({ teams }: { teams: TeamEntry[] }) {
   )
 
   if (sorted.length === 0) {
-    return <div className="px-4 py-3 text-sm text-zinc-500">暂无报名队伍</div>
+    return <div className="px-4 py-3 text-sm text-zinc-500">{dict.noTeams}</div>
   }
 
   return (
@@ -101,8 +104,8 @@ function TeamList({ teams }: { teams: TeamEntry[] }) {
         <TableHeader>
           <TableRow className="border-zinc-800 bg-zinc-900/80 hover:bg-zinc-900/80">
             <TableHead className="w-12 text-right text-zinc-400">#</TableHead>
-            <TableHead className="w-24 text-zinc-400">队号</TableHead>
-            <TableHead className="text-zinc-400">队名</TableHead>
+            <TableHead className="w-24 text-zinc-400">{dict.thTeamNum}</TableHead>
+            <TableHead className="text-zinc-400">{dict.thTeamName}</TableHead>
             <TableHead className="w-28 text-right text-zinc-400">2026 EPA</TableHead>
           </TableRow>
         </TableHeader>
@@ -120,7 +123,7 @@ function TeamList({ teams }: { teams: TeamEntry[] }) {
                     variant="outline"
                     className="ml-2 border-zinc-600 text-[10px] text-zinc-400"
                   >
-                    新队伍
+                    {dict.newTeam}
                   </Badge>
                 )}
               </TableCell>
@@ -136,6 +139,7 @@ function TeamList({ teams }: { teams: TeamEntry[] }) {
 }
 
 export default function EventsTable({ events }: { events: FrcEvent[] }) {
+  const { t } = useLang()
   const [sortKey, setSortKey] = useState<SortKey>('week')
   const [sortAsc, setSortAsc] = useState(true)
   const [weekFilter, setWeekFilter] = useState<string>('all')
@@ -230,19 +234,19 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
     <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="text-lg font-semibold text-zinc-100">
-          2027 全部赛区 · 第一轮报名
+          {t.tableTitle}
           <span className="ml-2 font-mono text-sm font-normal text-zinc-500">
             {rows.length} / {events.length}
           </span>
         </h2>
         <div className="flex items-center gap-2 text-sm text-zinc-400">
-          <span>Week 筛选</span>
+          <span>{t.weekFilter}</span>
           <Select value={weekFilter} onValueChange={setWeekFilter}>
             <SelectTrigger className="h-8 w-28 border-zinc-700 bg-zinc-900 text-zinc-200">
               <SelectValue />
             </SelectTrigger>
             <SelectContent className="border-zinc-700 bg-zinc-900 text-zinc-200">
-              <SelectItem value="all">全部</SelectItem>
+              <SelectItem value="all">{t.all}</SelectItem>
               {weeks.map((w) => (
                 <SelectItem key={w} value={String(w)}>
                   Week {w}
@@ -269,30 +273,30 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                 className={headCls('name', 'min-w-56 cursor-pointer text-zinc-300')}
                 onClick={() => toggleSort('name')}
               >
-                赛区
+                {t.thEvent}
                 <SortIcon col="name" />
               </TableHead>
-              <TableHead className="min-w-44 text-zinc-300">地点</TableHead>
-              <TableHead className="text-zinc-300">日期</TableHead>
+              <TableHead className="min-w-44 text-zinc-300">{t.thLocation}</TableHead>
+              <TableHead className="text-zinc-300">{t.thDates}</TableHead>
               <TableHead
                 className={headCls('capacity', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('capacity')}
               >
-                容量
+                {t.thCapacity}
                 <SortIcon col="capacity" />
               </TableHead>
               <TableHead
                 className={headCls('registered', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('registered')}
               >
-                报名
+                {t.thRegistered}
                 <SortIcon col="registered" />
               </TableHead>
               <TableHead
                 className={headCls('with_epa', 'cursor-pointer text-right text-zinc-300')}
                 onClick={() => toggleSort('with_epa')}
               >
-                有EPA
+                {t.thWithEpa}
                 <SortIcon col="with_epa" />
               </TableHead>
               {EPA_COLS.map((c) => (
@@ -301,7 +305,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                   className={headCls(c.key, 'cursor-pointer text-right text-zinc-300')}
                   onClick={() => toggleSort(c.key)}
                 >
-                  {c.label}
+                  {t.epaCols[c.key]}
                   <SortIcon col={c.key} />
                 </TableHead>
               ))}
@@ -398,7 +402,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                     </>
                   ) : (
                     <TableCell colSpan={6} className="text-center text-sm text-zinc-500">
-                      暂无 EPA 数据
+                      {t.noEpa}
                     </TableCell>
                   )}
                 </TableRow>,
@@ -408,12 +412,10 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
                       <div className="border-l-2 border-sky-500/40">
                         <div className="flex items-center justify-between px-4 py-2 text-xs text-zinc-500">
                           <span>
-                            已报名队伍 · 按 2026 赛季 EPA 降序
-                            {e.epa
-                              ? `（${e.epa.with_epa} 队有记录，${e.epa.registered - e.epa.with_epa} 支新队伍无 2026 记录）`
-                              : ''}
+                            {t.expandedTitle}
+                            {e.epa ? t.expandedStat(e.epa.with_epa, e.epa.registered - e.epa.with_epa) : ''}
                           </span>
-                          <span className="font-mono">{e.teams?.length ?? 0} 队</span>
+                          <span className="font-mono">{t.teamCount(e.teams?.length ?? 0)}</span>
                         </div>
                         <TeamList teams={e.teams ?? []} />
                       </div>
@@ -425,11 +427,7 @@ export default function EventsTable({ events }: { events: FrcEvent[] }) {
           </TableBody>
         </Table>
       </div>
-      <p className="text-xs text-zinc-500">
-        EPA 列为该赛区已报名队伍的 2026 赛季 EPA 统计（Statbotics
-        epa.total_points，赛季末值）；新队伍（无 2026 记录）不计入五列统计，不足 24
-        队的赛区「前24均值」按全体均值计。点击行展开查看完整报名名单，点击表头可按该列排序。
-      </p>
+      <p className="text-xs text-zinc-500">{t.tableFootnote}</p>
     </div>
   )
 }
