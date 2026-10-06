@@ -56,7 +56,7 @@ export interface Dict {
 }
 
 const zh: Dict = {
-  title: 'FRC 2027 赛季 · PowerEvents',
+  title: 'PowerEvents · 2027 BIOCORE',
   subtitle:
     'FIRST Robotics Competition 2027 Regional 赛区一览 · 第一轮报名进度 · 各队 2026 赛季 EPA（Statbotics）',
   loading: '正在加载数据…',
@@ -106,7 +106,7 @@ const zh: Dict = {
 }
 
 const en: Dict = {
-  title: 'FRC 2027 Season · PowerEvents',
+  title: 'PowerEvents · 2027 BIOCORE',
   subtitle:
     'FIRST Robotics Competition 2027 Regional events · Round 1 registration progress · Team 2026 season EPA (Statbotics)',
   loading: 'Loading data…',
