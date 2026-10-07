@@ -12,21 +12,21 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-950 text-rose-400">
+      <div className="flex min-h-screen items-center justify-center bg-metallic text-rose-400">
         {t.loadError(error)}
       </div>
     )
   }
   if (!data) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-950 text-zinc-500">
+      <div className="flex min-h-screen items-center justify-center bg-metallic text-zinc-500">
         {t.loading}
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-200">
+    <div className="min-h-screen bg-metallic text-zinc-200">
       <div className="mx-auto max-w-[1800px] space-y-8 px-6 py-8">
         <header className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-3">
