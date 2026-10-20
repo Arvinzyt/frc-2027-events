@@ -6,7 +6,8 @@ export function useData() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data.json`)
+    // 加时间戳参数绕过浏览器/CDN 缓存，保证每次打开拿到最新数据
+    fetch(`${import.meta.env.BASE_URL}data.json?t=${Date.now()}`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json() as Promise<DataFile>
