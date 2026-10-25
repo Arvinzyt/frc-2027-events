@@ -12,7 +12,7 @@
    "FIRST 各赛区页面（2027 报名名单）",
    "Statbotics site_v1/team_years/2026（各队 2026 赛季 EPA）"
   ],
-  "epa_note": "第一轮报名后口径：EPA 为各赛区已报名队伍在 2026 赛季的 EPA（Statbotics epa.total_points，赛季末值）；统计仅覆盖有 2026 EPA 记录的队伍，新队伍（无 2026 记录）不计入五列统计。"
+  "epa_note": "统计口径：EPA 为各赛区当前已报名队伍在 2026 赛季的 EPA（Statbotics epa.total_points，赛季末值）；统计仅覆盖有 2026 EPA 记录的队伍，新队伍（无 2026 记录）不计入五列统计。"
  },
  "events": [
   {
