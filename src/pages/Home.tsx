@@ -40,6 +40,8 @@ export default function Home() {
               <p className="text-sm text-zinc-500">{t.subtitle}</p>
             </div>
           </div>
+          <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
+          <a href="#/china-teams" className="rounded-md border border-emerald-500/40 bg-emerald-500/10 px-3 py-2 text-sm font-medium text-emerald-300 hover:bg-emerald-500/20">中国队伍报名 ↗</a>
           <Button
             variant="outline"
             size="sm"
@@ -49,6 +51,7 @@ export default function Home() {
             <Languages className="h-3.5 w-3.5" />
             {t.langToggle}
           </Button>
+          </div>
         </header>
 
         <Overview meta={data.meta} />

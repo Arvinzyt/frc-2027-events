@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "generated_at": "2026-10-31 17:48",
+    "event_data_updated_at": "2026-10-31 17:48",
+    "scope": "FIRST 2027 官方队伍目录中地区字段为 China 的队伍",
+    "source": "https://frc-events.firstinspires.org/2027/allteams"
+  },
+  "teams": [
+    {
+      "team": 5449,
+      "name": "Prototype",
+      "location": "Beijing, Beijing, China",
+      "organization": "The High School Affiliated to Renmin University of China",
+      "event_codes": [
+        "CNGU2",
+        "AZFG"
+      ],
+      "epa": 73.46
+    },
+    {
+      "team": 5515,
+      "name": "Blue Power Robotics",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "High School affiliated to Shanghai Jiao Tong University",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 42.5
+    },
+    {
+      "team": 5516,
+      "name": "Iron Maple",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Shenzhen(Nanshan)Concord College of Sino-Canada",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 52.19
+    },
+    {
+      "team": 5522,
+      "name": "Stargazer",
+      "location": "Shenzhen , Guangdong, China",
+      "organization": "Shenzhen DADALELE Culture Communication Co., LTD & Shenzhen high school of science",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 33.39
+    },
+    {
+      "team": 5823,
+      "name": "ACE",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "NYTR",
+        "AZFG"
+      ],
+      "epa": 88.04
+    },
+    {
+      "team": 5831,
+      "name": "Revolution Maker",
+      "location": "Macau, Macau, China",
+      "organization": "Pui Ching Middle School Macau",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": null
+    },
+    {
+      "team": 5849,
+      "name": "Joker",
+      "location": "Qingdao, Shandong, China",
+      "organization": "Inbox robotics club",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 41.77
+    },
+    {
+      "team": 6304,
+      "name": "EAGLE",
+      "location": "zhenjiang, Jiangsu, China",
+      "organization": "Zhenjiang Vocational & Technical School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 67.46
+    },
+    {
+      "team": 6353,
+      "name": "EFZ Robotics",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "No.2 High School of East China Normal University",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 88.48
+    },
+    {
+      "team": 6394,
+      "name": "MITO",
+      "location": "Suzhou, Jiangsu, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 36.76
+    },
+    {
+      "team": 6399,
+      "name": "Tinspiratio",
+      "location": "Jinan , Shandong, China",
+      "organization": "济南外国语",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 27.79
+    },
+    {
+      "team": 6414,
+      "name": "Voyager",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Shenzhen Foreign Languages School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 23.68
+    },
+    {
+      "team": 6433,
+      "name": "HZ4Z",
+      "location": "Hangzhou, Zhejiang, China",
+      "organization": "Hangzhou #4 High School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 19.84
+    },
+    {
+      "team": 6487,
+      "name": "Clockwork Knights",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Shanghai Foreign Language School Affiliated To SISU",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 100.78
+    },
+    {
+      "team": 6494,
+      "name": "Wings of Liberty",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Shanghai Jianping High School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 55.51
+    },
+    {
+      "team": 6706,
+      "name": "Golem",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Shenzhen Senior High School",
+      "event_codes": [
+        "CNGU2",
+        "OHMV"
+      ],
+      "epa": 101.82
+    },
+    {
+      "team": 6766,
+      "name": "AtomStorm",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Atom robot education",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 111.51
+    },
+    {
+      "team": 6907,
+      "name": "The G.O.A.T",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "High School Affiliated to Fudan University",
+      "event_codes": [
+        "MNDU",
+        "CNGU2"
+      ],
+      "epa": 133.13
+    },
+    {
+      "team": 6940,
+      "name": "Violet Z",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "No.2 High School of East China Normal University, Minhang Zizhu",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 41.52
+    },
+    {
+      "team": 6941,
+      "name": "IronPulse Robotics",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Shanghai Pinghe School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 158.94
+    },
+    {
+      "team": 7002,
+      "name": "风云蹦豆",
+      "location": "Taiyuan, Shanxi, China",
+      "organization": "太原市十二中学校 & 山西省青少年机器人教育协会 & Shanxi youth robotics education asociation",
+      "event_codes": [
+        "CNGU1",
+        "CNGU2"
+      ],
+      "epa": 45.6
+    },
+    {
+      "team": 7594,
+      "name": "Nautilus",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Vanke Meisha Academy",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 56.3
+    },
+    {
+      "team": 7601,
+      "name": "Shenzhen Unity Stallion",
+      "location": "shenzhen, Guangdong, China",
+      "organization": "International School of Nanshan Shenzhen & Shenzhen College of International Education & Shenzhen Foreign Languages School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 30.98
+    },
+    {
+      "team": 7738,
+      "name": "Helion",
+      "location": "Beijing, Beijing, China",
+      "organization": "Beijing Dulwich International School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": -8.52
+    },
+    {
+      "team": 8011,
+      "name": "Wayi Guangzhou",
+      "location": "Guangzhou, Guangdong, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 120.53
+    },
+    {
+      "team": 8015,
+      "name": "The Cheetahs",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Shanghai Qibao Dwight High School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 28.29
+    },
+    {
+      "team": 8172,
+      "name": "Celestial Shadow",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Family/Community & Sendelta International Academy",
+      "event_codes": [
+        "CNGU1",
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 8214,
+      "name": "Cyber Unicorn",
+      "location": "GuangZhou, Guangdong, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "CNGU2"
+      ],
+      "epa": 217.05
+    },
+    {
+      "team": 8810,
+      "name": "The Alphabots",
+      "location": "Suzhou, Jiangsu, China",
+      "organization": "Suzhou Foreign Language School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 73.42
+    },
+    {
+      "team": 9421,
+      "name": "Nexus",
+      "location": "Hong Kong, Hong Kong, China",
+      "organization": "Carmel School Hong Kong",
+      "event_codes": [
+        "CNGU1",
+        "NYTR"
+      ],
+      "epa": 28.97
+    },
+    {
+      "team": 9597,
+      "name": "Luban Robotics",
+      "location": "Beijing, Beijing, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 161.35
+    },
+    {
+      "team": 9635,
+      "name": "Cyber Rabbit",
+      "location": "Guangzhou, Guangdong, China",
+      "organization": "Minxin Hong Kong School (Guangzhou Nansha)",
+      "event_codes": [
+        "CNGU1",
+        "BCVI"
+      ],
+      "epa": 122.37
+    },
+    {
+      "team": 10000,
+      "name": "Neutron Star",
+      "location": "Beijing, Beijing, China",
+      "organization": "北京市朝阳区青少年活动中心",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 15.62
+    },
+    {
+      "team": 10016,
+      "name": "Absolute Zero",
+      "location": "Chuansha, Shanghai, China",
+      "organization": "Shanghai Chuansha High School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 31.39
+    },
+    {
+      "team": 10120,
+      "name": "Wulfa the Wolf",
+      "location": "shanghai, Shanghai, China",
+      "organization": "Shanghai United International School，Wanyuan Campus",
+      "event_codes": [
+        "CNGU1",
+        "HIHO"
+      ],
+      "epa": 63.04
+    },
+    {
+      "team": 10131,
+      "name": "Royal Turtles",
+      "location": "131 Argyle St. KLN, Hong Kong, China",
+      "organization": "Diocesan Boys' School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 199.85
+    },
+    {
+      "team": 10214,
+      "name": "Team Doritos",
+      "location": "Beijing, Beijing, China",
+      "organization": "RDFZ Xishan School",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": -3.53
+    },
+    {
+      "team": 10479,
+      "name": "Powerhouse",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "YK Pao School",
+      "event_codes": [
+        "CNGU2",
+        "NVLV"
+      ],
+      "epa": 75.09
+    },
+    {
+      "team": 10526,
+      "name": "Orcas",
+      "location": "shanghai, Shanghai, China",
+      "organization": "Shanghai Wlsa",
+      "event_codes": [
+        "CNGU1",
+        "CNGU2"
+      ],
+      "epa": 58.18
+    },
+    {
+      "team": 10541,
+      "name": "CarbonPulse Robotics",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "WEUR"
+      ],
+      "epa": 89.3
+    },
+    {
+      "team": 10558,
+      "name": "Forté",
+      "location": "Beijing, Beijing, China",
+      "organization": "Beijing Keystone Academy",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 20.68
+    },
+    {
+      "team": 10711,
+      "name": "FORMSHOP",
+      "location": "shanghai, Shanghai, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "WEUR"
+      ],
+      "epa": 42.13
+    },
+    {
+      "team": 11019,
+      "name": "X.PLORE",
+      "location": "shanghai, Shanghai, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "AZFG"
+      ],
+      "epa": 95.81
+    },
+    {
+      "team": 11118,
+      "name": "The Baybies",
+      "location": "Suzhou, Jiangsu, China",
+      "organization": "Suzhou International Academy",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": 104.19
+    },
+    {
+      "team": 11256,
+      "name": "Satellites",
+      "location": "Qingdao, Shandong, China",
+      "organization": "Qingdao Academy",
+      "event_codes": [
+        "CNGU1",
+        "WEUR"
+      ],
+      "epa": 25.74
+    },
+    {
+      "team": 11328,
+      "name": "Hellcats",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "SENDELTA INTERNATIONAL ACADEMY SHENZHEN",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 70.32
+    },
+    {
+      "team": 11352,
+      "name": "川渝",
+      "location": "Chongqing, Chongqing, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": 11.55
+    },
+    {
+      "team": 11783,
+      "name": "Lunar Exploration",
+      "location": "Beijing, Beijing, China",
+      "organization": "MoonShotAcademy",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 11999,
+      "name": "STEM Star",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "HIHO"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12052,
+      "name": "YAE",
+      "location": "Yichun, Jiangxi, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12082,
+      "name": "NACIS",
+      "location": "Shanghai, Shanghai, China",
+      "organization": "Nord Anglia Chinese International School, Shanghai",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12088,
+      "name": "Atlas",
+      "location": "Qingdao, Shandong, China",
+      "organization": "Hongwen School",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12245,
+      "name": "Cyber Turtle",
+      "location": "Guangzhou, Guangdong, China",
+      "organization": "Minxin Hong Kong School (Guangzhou Nansha)",
+      "event_codes": [
+        "CNGU1",
+        "BCVI"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12288,
+      "name": "IronDragon",
+      "location": "pudong, Shanghai, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU1",
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12345,
+      "name": "1 to 5",
+      "location": "Jinan, Shandong, China",
+      "organization": "Family/Community",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12363,
+      "name": "LEOMOTIVE",
+      "location": "pudong, Shanghai, China",
+      "organization": "光华剑桥",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12366,
+      "name": "HibaLions",
+      "location": "pudong, Shanghai, China",
+      "organization": "Hiba Academy Shanghai",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12392,
+      "name": "NanChengBaChuan tiger",
+      "location": "chongqing, Chongqing, China",
+      "organization": "nanchengbachuan",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12429,
+      "name": "Astra Blade",
+      "location": "Shenzhen, Guangdong, China",
+      "organization": "Atomstem",
+      "event_codes": [
+        "CNGU1"
+      ],
+      "epa": null
+    },
+    {
+      "team": 12542,
+      "name": "Huanan KirinX",
+      "location": "Guangzhou, Guangdong, China",
+      "organization": "小舟机器人",
+      "event_codes": [
+        "CNGU2"
+      ],
+      "epa": null
+    }
+  ]
+}
