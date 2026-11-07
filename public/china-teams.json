@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-31 17:48",
-    "event_data_updated_at": "2026-10-31 17:48",
+    "generated_at": "2026-11-08 00:41",
+    "event_data_updated_at": "2026-11-08 00:25",
     "scope": "FIRST 2027 官方队伍目录中地区字段为 China 的队伍",
     "source": "https://frc-events.firstinspires.org/2027/allteams"
   },
@@ -95,7 +95,9 @@
       "location": "Shanghai, Shanghai, China",
       "organization": "No.2 High School of East China Normal University",
       "event_codes": [
-        "CNGU1"
+        "CNGU1",
+        "NYTR",
+        "AZFG"
       ],
       "epa": 88.48
     },
@@ -176,7 +178,8 @@
       "location": "Shenzhen, Guangdong, China",
       "organization": "Atom robot education",
       "event_codes": [
-        "CNGU2"
+        "CNGU2",
+        "WEUR"
       ],
       "epa": 111.51
     },
@@ -207,7 +210,8 @@
       "location": "Shanghai, Shanghai, China",
       "organization": "Shanghai Pinghe School",
       "event_codes": [
-        "CNGU1"
+        "CNGU1",
+        "ALHU"
       ],
       "epa": 158.94
     },
@@ -415,8 +419,7 @@
       "location": "Shanghai, Shanghai, China",
       "organization": "Family/Community",
       "event_codes": [
-        "CNGU1",
-        "WEUR"
+        "CNGU1"
       ],
       "epa": 89.3
     },
@@ -530,7 +533,8 @@
       "location": "Shanghai, Shanghai, China",
       "organization": "Nord Anglia Chinese International School, Shanghai",
       "event_codes": [
-        "CNGU2"
+        "CNGU2",
+        "WEUR"
       ],
       "epa": null
     },
@@ -557,7 +561,7 @@
     },
     {
       "team": 12288,
-      "name": "IronDragon",
+      "name": "ChinaDragon",
       "location": "pudong, Shanghai, China",
       "organization": "Family/Community",
       "event_codes": [
