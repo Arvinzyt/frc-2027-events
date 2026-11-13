@@ -1,12 +1,12 @@
 {
  "meta": {
-  "generated_at": "2026-11-08 00:25",
+  "generated_at": "2026-11-13 23:36",
   "event_count_2027": 61,
   "event_count_2026": 56,
   "new_event_count": 11,
   "week_changed_count": 19,
   "discontinued_count": 6,
-  "total_registered": 2192,
+  "total_registered": 2356,
   "sources": [
    "https://frc-events.firstinspires.org/2027/Events/EventList?filter=REG",
    "FIRST 各赛区页面（2027 报名名单）",
@@ -178,23 +178,28 @@
    "location": "Colorado Springs, CO USA",
    "date_start": "3/4/2027",
    "date_range": "3/4 to 3/7",
-   "capacity": 22,
-   "registered": 21,
+   "capacity": 29,
+   "registered": 29,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 1,
    "location_2026": "Colorado Springs, CO USA",
    "epa": {
-    "registered": 21,
-    "with_epa": 20,
-    "max": 182.3,
-    "top8_avg": 119.8,
-    "top24_avg": 72.55,
-    "mean": 72.55,
-    "median": 48.7
+    "registered": 29,
+    "with_epa": 28,
+    "max": 230.05,
+    "top8_avg": 141.76,
+    "top24_avg": 75.25,
+    "mean": 67.29,
+    "median": 47.52
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 4499,
+     "name": "The Highlanders",
+     "epa": 230.05
+    },
     {
      "team": 9068,
      "name": "The Chargers",
@@ -229,6 +234,11 @@
      "team": 2036,
      "name": "Boulder Valley Black Knights",
      "epa": 61.28
+    },
+    {
+     "team": 662,
+     "name": "Rocky Mountain Robotics",
+     "epa": 56.52
     },
     {
      "team": 4388,
@@ -276,6 +286,11 @@
      "epa": 39.33
     },
     {
+     "team": 8334,
+     "name": "Titan Robotics",
+     "epa": 38.25
+    },
+    {
      "team": 1977,
      "name": "The PowerSquids",
      "epa": 34.54
@@ -286,14 +301,39 @@
      "epa": 34.49
     },
     {
+     "team": 2945,
+     "name": "Steel Mustangs",
+     "epa": 29.71
+    },
+    {
      "team": 3880,
      "name": "Tiki Techs",
      "epa": 28.71
     },
     {
+     "team": 10686,
+     "name": "Northfield Nightbots",
+     "epa": 27.66
+    },
+    {
      "team": 7895,
      "name": "Trobots",
      "epa": 27.07
+    },
+    {
+     "team": 1799,
+     "name": "Wired-Up!",
+     "epa": 24.19
+    },
+    {
+     "team": 5493,
+     "name": "SMAbotics",
+     "epa": 14.54
+    },
+    {
+     "team": 3807,
+     "name": "Overland BlazerBots",
+     "epa": 12.12
     },
     {
      "team": 12113,
@@ -309,20 +349,20 @@
    "location": "Duluth, MN USA",
    "date_start": "3/3/2027",
    "date_range": "3/3 to 3/6",
-   "capacity": 44,
-   "registered": 44,
+   "capacity": 46,
+   "registered": 46,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 1,
    "location_2026": "Duluth, MN USA",
    "epa": {
-    "registered": 44,
-    "with_epa": 44,
+    "registered": 46,
+    "with_epa": 46,
     "max": 159.13,
-    "top8_avg": 133.71,
-    "top24_avg": 86.84,
-    "mean": 60.58,
-    "median": 45.9
+    "top8_avg": 134.07,
+    "top24_avg": 92.72,
+    "mean": 62.95,
+    "median": 47.95
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -357,6 +397,11 @@
      "epa": 124.16
     },
     {
+     "team": 4607,
+     "name": "C.I.S.",
+     "epa": 120.86
+    },
+    {
      "team": 5653,
      "name": "Iron Mosquitos",
      "epa": 120.55
@@ -375,6 +420,11 @@
      "team": 2847,
      "name": "The MegaHertz",
      "epa": 111.65
+    },
+    {
+     "team": 8255,
+     "name": "Robodogs",
+     "epa": 109.13
     },
     {
      "team": 2503,
@@ -556,13 +606,13 @@
    "date_start": "3/3/2027",
    "date_range": "3/3 to 3/6",
    "capacity": 43,
-   "registered": 39,
+   "registered": 40,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 1,
    "location_2026": "Duluth, MN USA",
    "epa": {
-    "registered": 39,
+    "registered": 40,
     "with_epa": 39,
     "max": 184.74,
     "top8_avg": 151.72,
@@ -766,6 +816,11 @@
      "team": 6047,
      "name": "Proctor Frostbyte",
      "epa": 10.28
+    },
+    {
+     "team": 8173,
+     "name": "",
+     "epa": null
     }
    ]
   },
@@ -1389,20 +1444,20 @@
    "location": "Searcy, AR USA",
    "date_start": "3/10/2027",
    "date_range": "3/10 to 3/13",
-   "capacity": 28,
-   "registered": 28,
+   "capacity": 30,
+   "registered": 30,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Searcy, AR USA",
    "epa": {
-    "registered": 28,
-    "with_epa": 24,
+    "registered": 30,
+    "with_epa": 26,
     "max": 259.05,
-    "top8_avg": 154.13,
-    "top24_avg": 72.79,
-    "mean": 72.79,
-    "median": 35.98
+    "top8_avg": 155.55,
+    "top24_avg": 78.21,
+    "mean": 73.17,
+    "median": 36.84
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -1437,6 +1492,11 @@
      "epa": 120.98
     },
     {
+     "team": 8808,
+     "name": "SWLA Tech Pirates",
+     "epa": 117.98
+    },
+    {
      "team": 5454,
      "name": "Obsidian",
      "epa": 116.19
@@ -1460,6 +1520,11 @@
      "team": 5557,
      "name": "BB-R8ERS",
      "epa": 45.16
+    },
+    {
+     "team": 3468,
+     "name": "MAGNAtech Rebels",
+     "epa": 37.52
     },
     {
      "team": 7917,
@@ -1555,20 +1620,20 @@
    "location": "Cambridge Park, NSW Australia",
    "date_start": "3/11/2027",
    "date_range": "3/11 to 3/14",
-   "capacity": 38,
-   "registered": 38,
+   "capacity": 39,
+   "registered": 39,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 2,
    "location_2026": "Cambridge Park, NSW Australia",
    "epa": {
-    "registered": 38,
-    "with_epa": 32,
+    "registered": 39,
+    "with_epa": 33,
     "max": 157.88,
     "top8_avg": 106.56,
-    "top24_avg": 53.25,
-    "mean": 41.24,
-    "median": 21.87
+    "top24_avg": 53.81,
+    "mean": 40.82,
+    "median": 22.07
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -1631,6 +1696,11 @@
      "team": 4788,
      "name": "Can't Control",
      "epa": 35.7
+    },
+    {
+     "team": 6508,
+     "name": "Hastings Heroes",
+     "epa": 27.53
     },
     {
      "team": 5331,
@@ -1771,7 +1841,7 @@
    "location": "Guangzhou, GD China",
    "date_start": "3/11/2027",
    "date_range": "3/11 to 3/14",
-   "capacity": 32,
+   "capacity": 34,
    "registered": 32,
    "status": "new_2027",
    "data_status": "registered",
@@ -1779,12 +1849,12 @@
    "location_2026": null,
    "epa": {
     "registered": 32,
-    "with_epa": 23,
+    "with_epa": 22,
     "max": 217.05,
-    "top8_avg": 135.13,
-    "top24_avg": 78.15,
-    "mean": 78.15,
-    "median": 73.42
+    "top8_avg": 133.69,
+    "top24_avg": 79.14,
+    "mean": 79.14,
+    "median": 73.44
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -1819,11 +1889,6 @@
      "epa": 104.19
     },
     {
-     "team": 6487,
-     "name": "Clockwork Knights",
-     "epa": 100.78
-    },
-    {
      "team": 11019,
      "name": "X.PLORE",
      "epa": 95.81
@@ -1842,6 +1907,11 @@
      "team": 5823,
      "name": "ACE",
      "epa": 88.04
+    },
+    {
+     "team": 5449,
+     "name": "Prototype",
+     "epa": 73.46
     },
     {
      "team": 8810,
@@ -1877,11 +1947,6 @@
      "team": 5849,
      "name": "Joker",
      "epa": 41.77
-    },
-    {
-     "team": 9421,
-     "name": "Nexus",
-     "epa": 28.97
     },
     {
      "team": 8015,
@@ -1935,6 +2000,11 @@
     },
     {
      "team": 12363,
+     "name": "",
+     "epa": null
+    },
+    {
+     "team": 12366,
      "name": "",
      "epa": null
     },
@@ -2138,23 +2208,33 @@
    "location": "St. Louis, MO USA",
    "date_start": "3/10/2027",
    "date_range": "3/10 to 3/13",
-   "capacity": 38,
-   "registered": 38,
+   "capacity": 48,
+   "registered": 47,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "St. Louis, MO USA",
    "epa": {
-    "registered": 38,
-    "with_epa": 35,
-    "max": 149.26,
-    "top8_avg": 96.01,
-    "top24_avg": 58.9,
-    "mean": 44.85,
-    "median": 35.51
+    "registered": 47,
+    "with_epa": 44,
+    "max": 256.0,
+    "top8_avg": 137.19,
+    "top24_avg": 80.25,
+    "mean": 52.56,
+    "median": 37.31
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 1706,
+     "name": "Ratchet Rockers",
+     "epa": 256.0
+    },
+    {
+     "team": 9401,
+     "name": "Midas' Mayhem",
+     "epa": 171.47
+    },
     {
      "team": 5847,
      "name": "Ironclad",
@@ -2176,6 +2256,16 @@
      "epa": 103.04
     },
     {
+     "team": 6391,
+     "name": "Ursuline Bearbotics",
+     "epa": 82.41
+    },
+    {
+     "team": 4500,
+     "name": "RoboHounds",
+     "epa": 79.2
+    },
+    {
      "team": 2345,
      "name": "Kearnage",
      "epa": 68.88
@@ -2194,6 +2284,11 @@
      "team": 10011,
      "name": "Gridrunners",
      "epa": 62.34
+    },
+    {
+     "team": 4329,
+     "name": "Lutheran Roboteers",
+     "epa": 59.7
     },
     {
      "team": 5837,
@@ -2229,6 +2324,11 @@
      "team": 3067,
      "name": "Robovikes",
      "epa": 42.77
+    },
+    {
+     "team": 3792,
+     "name": "Army Ants",
+     "epa": 42.03
     },
     {
      "team": 144,
@@ -2271,6 +2371,11 @@
      "epa": 27.33
     },
     {
+     "team": 1208,
+     "name": "Metool Brigade",
+     "epa": 25.43
+    },
+    {
      "team": 10322,
      "name": "Beyond the Bell",
      "epa": 22.62
@@ -2284,6 +2389,11 @@
      "team": 2080,
      "name": "Torbotics",
      "epa": 21.81
+    },
+    {
+     "team": 1288,
+     "name": "RAVEN Robotics",
+     "epa": 19.67
     },
     {
      "team": 5060,
@@ -2324,6 +2434,11 @@
      "team": 1178,
      "name": "DURT  (De Smet United Robotics Team)",
      "epa": 8.38
+    },
+    {
+     "team": 5176,
+     "name": "RoboBills",
+     "epa": 7.27
     },
     {
      "team": 2408,
@@ -2615,23 +2730,28 @@
    "location": "Rochester, NY USA",
    "date_start": "3/10/2027",
    "date_range": "3/10 to 3/13",
-   "capacity": 38,
-   "registered": 38,
+   "capacity": 45,
+   "registered": 44,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 2,
    "location_2026": "Rochester, NY USA",
    "epa": {
-    "registered": 38,
-    "with_epa": 38,
-    "max": 203.93,
-    "top8_avg": 145.73,
-    "top24_avg": 93.06,
-    "mean": 66.75,
-    "median": 47.05
+    "registered": 44,
+    "with_epa": 43,
+    "max": 205.35,
+    "top8_avg": 158.67,
+    "top24_avg": 103.69,
+    "mean": 69.79,
+    "median": 57.8
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 3015,
+     "name": "Ranger Robotics",
+     "epa": 205.35
+    },
     {
      "team": 4028,
      "name": "The Beak Squad",
@@ -2666,6 +2786,11 @@
      "team": 1405,
      "name": "Finney Falcons",
      "epa": 116.95
+    },
+    {
+     "team": 1511,
+     "name": "Rolling Thunder",
+     "epa": 113.06
     },
     {
      "team": 1493,
@@ -2723,6 +2848,16 @@
      "epa": 65.05
     },
     {
+     "team": 1559,
+     "name": "Devil Tech",
+     "epa": 61.04
+    },
+    {
+     "team": 6621,
+     "name": "Artemis",
+     "epa": 57.8
+    },
+    {
      "team": 3003,
      "name": "TAN(X)",
      "epa": 47.53
@@ -2768,6 +2903,11 @@
      "epa": 36.14
     },
     {
+     "team": 578,
+     "name": "Fairport Robotics",
+     "epa": 35.63
+    },
+    {
      "team": 5590,
      "name": "Alumiboti",
      "epa": 35.54
@@ -2781,11 +2921,6 @@
      "team": 639,
      "name": "Code Red Robotics",
      "epa": 30.8
-    },
-    {
-     "team": 6463,
-     "name": "Robotic Reapers",
-     "epa": 19.14
     },
     {
      "team": 7718,
@@ -2808,6 +2943,11 @@
      "epa": 13.55
     },
     {
+     "team": 1450,
+     "name": "XQ Robotix Team 1450",
+     "epa": 10.73
+    },
+    {
      "team": 250,
      "name": "The Dynamos",
      "epa": 7.9
@@ -2821,6 +2961,11 @@
      "team": 7903,
      "name": "Tigers",
      "epa": 0.56
+    },
+    {
+     "team": 11720,
+     "name": "",
+     "epa": null
     }
    ]
   },
@@ -2831,20 +2976,20 @@
    "location": "Tempe, AZ USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 32,
-   "registered": 32,
+   "capacity": 38,
+   "registered": 38,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 32,
-    "with_epa": 32,
+    "registered": 38,
+    "with_epa": 38,
     "max": 242.86,
     "top8_avg": 127.72,
-    "top24_avg": 64.95,
-    "mean": 52.29,
-    "median": 27.48
+    "top24_avg": 69.67,
+    "mean": 49.48,
+    "median": 28.44
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -2889,9 +3034,19 @@
      "epa": 71.39
     },
     {
+     "team": 6479,
+     "name": "AZTECH Robotics",
+     "epa": 65.02
+    },
+    {
      "team": 2375,
      "name": "Dragon Robotics",
      "epa": 64.67
+    },
+    {
+     "team": 991,
+     "name": "BroncoBots",
+     "epa": 62.8
     },
     {
      "team": 10256,
@@ -2909,6 +3064,11 @@
      "epa": 42.38
     },
     {
+     "team": 8717,
+     "name": "Cyber Vipers",
+     "epa": 42.2
+    },
+    {
      "team": 11100,
      "name": "Team Epsilon",
      "epa": 41.72
@@ -2922,6 +3082,11 @@
      "team": 1828,
      "name": "BoxerBots",
      "epa": 30.26
+    },
+    {
+     "team": 10183,
+     "name": "ARC",
+     "epa": 29.3
     },
     {
      "team": 1011,
@@ -2999,6 +3164,11 @@
      "epa": 13.03
     },
     {
+     "team": 11176,
+     "name": "RoboRabbits",
+     "epa": 12.77
+    },
+    {
      "team": 10933,
      "name": "Tie Dye Samurai",
      "epa": 9.18
@@ -3007,6 +3177,11 @@
      "team": 9091,
      "name": "A.W.E.",
      "epa": 2.97
+    },
+    {
+     "team": 8012,
+     "name": "APEX Robotics",
+     "epa": -5.21
     }
    ]
   },
@@ -3429,20 +3604,20 @@
    "location": "Orlando, FL USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 51,
-   "registered": 50,
+   "capacity": 52,
+   "registered": 52,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Orlando, FL USA",
    "epa": {
-    "registered": 50,
-    "with_epa": 44,
+    "registered": 52,
+    "with_epa": 46,
     "max": 196.87,
     "top8_avg": 126.43,
     "top24_avg": 79.21,
-    "mean": 51.91,
-    "median": 34.5
+    "mean": 50.74,
+    "median": 33.89
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -3582,6 +3757,11 @@
      "epa": 29.63
     },
     {
+     "team": 2797,
+     "name": "Knight & Nerdy",
+     "epa": 28.48
+    },
+    {
      "team": 3164,
      "name": "Stealth Tigers",
      "epa": 28.47
@@ -3615,6 +3795,11 @@
      "team": 8753,
      "name": "Spectre",
      "epa": 22.41
+    },
+    {
+     "team": 9728,
+     "name": "Rebel Robotics-BGCCF Joe R Lee Branch",
+     "epa": 21.65
     },
     {
      "team": 11222,
@@ -3705,23 +3890,28 @@
    "location": "Honolulu, HI USA",
    "date_start": "3/18/2027",
    "date_range": "3/18 to 3/21",
-   "capacity": 28,
-   "registered": 28,
+   "capacity": 31,
+   "registered": 31,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Honolulu, HI USA",
    "epa": {
-    "registered": 28,
-    "with_epa": 23,
-    "max": 125.7,
-    "top8_avg": 91.42,
-    "top24_avg": 46.51,
-    "mean": 46.51,
-    "median": 32.0
+    "registered": 31,
+    "with_epa": 25,
+    "max": 233.36,
+    "top8_avg": 114.08,
+    "top24_avg": 56.97,
+    "mean": 54.76,
+    "median": 35.39
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 359,
+     "name": "Hawaiian Kids",
+     "epa": 233.36
+    },
     {
      "team": 8005,
      "name": "Mega MeadowBots",
@@ -3746,6 +3936,11 @@
      "team": 2438,
      "name": "'Iobotics",
      "epa": 79.58
+    },
+    {
+     "team": 2443,
+     "name": "Blue Thunder",
+     "epa": 65.85
     },
     {
      "team": 10951,
@@ -3861,6 +4056,11 @@
      "team": 11999,
      "name": "",
      "epa": null
+    },
+    {
+     "team": 12113,
+     "name": "",
+     "epa": null
     }
    ]
   },
@@ -3871,23 +4071,28 @@
    "location": "Peoria, IL USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 31,
-   "registered": 22,
+   "capacity": 34,
+   "registered": 27,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Peoria, IL USA",
    "epa": {
-    "registered": 22,
-    "with_epa": 22,
-    "max": 170.0,
-    "top8_avg": 109.81,
-    "top24_avg": 62.3,
-    "mean": 62.3,
-    "median": 47.8
+    "registered": 27,
+    "with_epa": 27,
+    "max": 285.04,
+    "top8_avg": 144.34,
+    "top24_avg": 76.58,
+    "mean": 69.32,
+    "median": 41.55
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 2481,
+     "name": "Roboteers",
+     "epa": 285.04
+    },
     {
      "team": 4143,
      "name": "MARS/WARS",
@@ -3902,6 +4107,11 @@
      "team": 4096,
      "name": "Ctrl-Z",
      "epa": 126.43
+    },
+    {
+     "team": 2040,
+     "name": "DERT - Dunlap Eagles Robotics Team",
+     "epa": 124.39
     },
     {
      "team": 6237,
@@ -3949,6 +4159,16 @@
      "epa": 41.55
     },
     {
+     "team": 5442,
+     "name": "Mechanical Monarchy",
+     "epa": 40.3
+    },
+    {
+     "team": 1736,
+     "name": "Robot Casserole",
+     "epa": 40.06
+    },
+    {
      "team": 6651,
      "name": "Golden Bots",
      "epa": 36.94
@@ -3994,6 +4214,11 @@
      "epa": 12.44
     },
     {
+     "team": 8719,
+     "name": "Oakville Dynamics",
+     "epa": 11.23
+    },
+    {
      "team": 2039,
      "name": "Rockford Robotics",
      "epa": 10.09
@@ -4007,20 +4232,20 @@
    "location": "Shawnee, KS USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 27,
-   "registered": 27,
+   "capacity": 35,
+   "registered": 35,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Shawnee, KS USA",
    "epa": {
-    "registered": 27,
-    "with_epa": 27,
+    "registered": 35,
+    "with_epa": 35,
     "max": 171.78,
-    "top8_avg": 104.62,
-    "top24_avg": 61.06,
-    "mean": 56.0,
-    "median": 42.64
+    "top8_avg": 111.62,
+    "top24_avg": 74.28,
+    "mean": 57.4,
+    "median": 54.83
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -4033,6 +4258,16 @@
      "team": 1710,
      "name": "The Ravonics Revolution",
      "epa": 169.68
+    },
+    {
+     "team": 1810,
+     "name": "CATATRONICS",
+     "epa": 101.99
+    },
+    {
+     "team": 2357,
+     "name": "System Meltdown",
+     "epa": 100.44
     },
     {
      "team": 4068,
@@ -4060,6 +4295,11 @@
      "epa": 76.25
     },
     {
+     "team": 6424,
+     "name": "Stealth Panther Robotics",
+     "epa": 76.02
+    },
+    {
      "team": 5126,
      "name": "Electromagnetic Panthers (EMP)",
      "epa": 70.13
@@ -4068,6 +4308,11 @@
      "team": 5013,
      "name": "Trobots",
      "epa": 69.3
+    },
+    {
+     "team": 757,
+     "name": "Crazy Train",
+     "epa": 66.4
     },
     {
      "team": 5268,
@@ -4090,6 +4335,16 @@
      "epa": 56.37
     },
     {
+     "team": 4418,
+     "name": "IMPULSE",
+     "epa": 54.83
+    },
+    {
+     "team": 9316,
+     "name": "CUBATRONICS",
+     "epa": 51.55
+    },
+    {
      "team": 1847,
      "name": "WRATH",
      "epa": 42.64
@@ -4098,6 +4353,11 @@
      "team": 4809,
      "name": "Black Knight Robotics",
      "epa": 38.24
+    },
+    {
+     "team": 935,
+     "name": "RaileRobotics",
+     "epa": 36.76
     },
     {
      "team": 3160,
@@ -4158,6 +4418,11 @@
      "team": 2410,
      "name": "Blue Valley CAPS Metal Mustangs",
      "epa": 12.58
+    },
+    {
+     "team": 1994,
+     "name": "Quixote",
+     "epa": 9.07
     }
    ]
   },
@@ -4168,7 +4433,7 @@
    "location": "Laurel, MS USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 38,
+   "capacity": 39,
    "registered": 38,
    "status": "unchanged",
    "data_status": "registered",
@@ -4179,9 +4444,9 @@
     "with_epa": 37,
     "max": 256.51,
     "top8_avg": 150.41,
-    "top24_avg": 94.57,
-    "mean": 68.35,
-    "median": 48.79
+    "top24_avg": 96.18,
+    "mean": 68.74,
+    "median": 56.29
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -4241,6 +4506,11 @@
      "epa": 95.78
     },
     {
+     "team": 127,
+     "name": "Bluetonium",
+     "epa": 91.03
+    },
+    {
      "team": 2183,
      "name": "Tigerbots",
      "epa": 82.91
@@ -4276,11 +4546,6 @@
      "epa": 56.29
     },
     {
-     "team": 10114,
-     "name": "Phantom Talons",
-     "epa": 48.79
-    },
-    {
      "team": 7094,
      "name": "Alpha Omega",
      "epa": 43.2
@@ -4299,11 +4564,6 @@
      "team": 9717,
      "name": "Poultronix",
      "epa": 41.32
-    },
-    {
-     "team": 3468,
-     "name": "MAGNAtech Rebels",
-     "epa": 37.52
     },
     {
      "team": 9405,
@@ -4361,6 +4621,11 @@
      "epa": 11.22
     },
     {
+     "team": 11265,
+     "name": "Rockbotics -FRC",
+     "epa": 9.52
+    },
+    {
      "team": 10550,
      "name": "35 Soaring Roneagles",
      "epa": 8.72
@@ -4384,20 +4649,20 @@
    "location": "Torreón, COA Mexico",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 25,
-   "registered": 25,
+   "capacity": 28,
+   "registered": 28,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "Torreón, COA Mexico",
    "epa": {
-    "registered": 25,
-    "with_epa": 24,
+    "registered": 28,
+    "with_epa": 27,
     "max": 208.63,
     "top8_avg": 105.97,
-    "top24_avg": 48.39,
-    "mean": 48.39,
-    "median": 26.48
+    "top24_avg": 49.41,
+    "mean": 44.24,
+    "median": 25.41
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -4487,6 +4752,11 @@
      "epa": 23.12
     },
     {
+     "team": 6199,
+     "name": "E-Hawks - Peñoles",
+     "epa": 17.97
+    },
+    {
      "team": 8266,
      "name": "Owlbot - Peñoles",
      "epa": 15.5
@@ -4500,6 +4770,11 @@
      "team": 3794,
      "name": "Prepa Tecmilenio WinT",
      "epa": 13.19
+    },
+    {
+     "team": 7037,
+     "name": "Jeunes D'Argent - FresnilloPLC",
+     "epa": 12.99
     },
     {
      "team": 8105,
@@ -4522,6 +4797,11 @@
      "epa": 2.2
     },
     {
+     "team": 11304,
+     "name": "Meowbotics - Fresnillo PLC",
+     "epa": 2.18
+    },
+    {
      "team": 12396,
      "name": "",
      "epa": null
@@ -4535,20 +4815,20 @@
    "location": "Hempstead, NY USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 47,
-   "registered": 47,
+   "capacity": 48,
+   "registered": 48,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Hempstead, NY USA",
    "epa": {
-    "registered": 47,
-    "with_epa": 45,
+    "registered": 48,
+    "with_epa": 46,
     "max": 263.33,
     "top8_avg": 166.5,
     "top24_avg": 89.76,
-    "mean": 57.49,
-    "median": 38.67
+    "mean": 56.88,
+    "median": 38.17
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -4683,6 +4963,11 @@
      "epa": 33.62
     },
     {
+     "team": 329,
+     "name": "Mohawks",
+     "epa": 29.47
+    },
+    {
      "team": 8739,
      "name": "Redhawk Robotics",
      "epa": 29.07
@@ -4796,20 +5081,20 @@
    "location": "Cleveland, OH USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 45,
-   "registered": 41,
+   "capacity": 53,
+   "registered": 43,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Cleveland, OH USA",
    "epa": {
-    "registered": 41,
-    "with_epa": 40,
+    "registered": 43,
+    "with_epa": 42,
     "max": 295.14,
     "top8_avg": 165.07,
-    "top24_avg": 88.47,
-    "mean": 62.8,
-    "median": 38.31
+    "top24_avg": 92.02,
+    "mean": 63.6,
+    "median": 38.95
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -4852,6 +5137,16 @@
      "team": 1014,
      "name": "Bad Robots",
      "epa": 86.23
+    },
+    {
+     "team": 244,
+     "name": "RoboDawgs 3D",
+     "epa": 79.98
+    },
+    {
+     "team": 288,
+     "name": "The RoboDawgs",
+     "epa": 78.93
     },
     {
      "team": 2603,
@@ -5014,7 +5309,7 @@
      "epa": 10.03
     },
     {
-     "team": 12423,
+     "team": 216,
      "name": "",
      "epa": null
     }
@@ -5027,20 +5322,20 @@
    "location": "Pittsburgh, PA USA",
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
-   "capacity": 44,
-   "registered": 44,
+   "capacity": 51,
+   "registered": 42,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Pittsburgh, PA USA",
    "epa": {
-    "registered": 44,
-    "with_epa": 42,
+    "registered": 42,
+    "with_epa": 40,
     "max": 194.88,
-    "top8_avg": 121.28,
-    "top24_avg": 75.75,
-    "mean": 51.57,
-    "median": 37.91
+    "top8_avg": 136.26,
+    "top24_avg": 85.42,
+    "mean": 60.11,
+    "median": 42.1
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -5048,6 +5343,16 @@
      "team": 117,
      "name": "Steel Dragons",
      "epa": 194.88
+    },
+    {
+     "team": 340,
+     "name": "G.R.R. (Greater Rochester Robotics)",
+     "epa": 172.54
+    },
+    {
+     "team": 48,
+     "name": "Team E.L.I.T.E.",
+     "epa": 128.15
     },
     {
      "team": 4122,
@@ -5160,11 +5465,6 @@
      "epa": 34.34
     },
     {
-     "team": 10513,
-     "name": "Team Humanity Robo Falcons",
-     "epa": 34.12
-    },
-    {
      "team": 1155,
      "name": "SciBorgs",
      "epa": 33.85
@@ -5198,11 +5498,6 @@
      "team": 2641,
      "name": "Pittsburgh Central Catholic Robotics",
      "epa": 22.85
-    },
-    {
-     "team": 10517,
-     "name": "Ctrl Alt Defeat",
-     "epa": 21.07
     },
     {
      "team": 4050,
@@ -5240,19 +5535,9 @@
      "epa": 8.61
     },
     {
-     "team": 8747,
-     "name": "BLACK SEA ROBOTICS",
-     "epa": 6.24
-    },
-    {
      "team": 11456,
      "name": "UMWACC Ruff Creek RoboMiners",
      "epa": 6.13
-    },
-    {
-     "team": 10515,
-     "name": "Aluminum Tethys",
-     "epa": 1.03
     },
     {
      "team": 530,
@@ -5274,19 +5559,19 @@
    "date_start": "3/17/2027",
    "date_range": "3/17 to 3/20",
    "capacity": 46,
-   "registered": 41,
+   "registered": 44,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 3,
    "location_2026": "Sevierville, TN USA",
    "epa": {
-    "registered": 41,
-    "with_epa": 38,
+    "registered": 44,
+    "with_epa": 40,
     "max": 171.86,
     "top8_avg": 129.46,
     "top24_avg": 79.88,
-    "mean": 58.08,
-    "median": 38.97
+    "mean": 55.91,
+    "median": 38.19
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -5426,6 +5711,11 @@
      "epa": 27.18
     },
     {
+     "team": 9152,
+     "name": "Rat Fight",
+     "epa": 26.62
+    },
+    {
      "team": 1445,
      "name": "Webb Spark",
      "epa": 25.94
@@ -5481,6 +5771,11 @@
      "epa": 10.06
     },
     {
+     "team": 3821,
+     "name": "Pirabots",
+     "epa": 3.03
+    },
+    {
      "team": 5005,
      "name": "",
      "epa": null
@@ -5492,6 +5787,11 @@
     },
     {
      "team": 12474,
+     "name": "",
+     "epa": null
+    },
+    {
+     "team": 12519,
      "name": "",
      "epa": null
     }
@@ -5720,19 +6020,19 @@
    "location": "Langley, BC Canada",
    "date_start": "3/23/2027",
    "date_range": "3/23 to 3/26",
-   "capacity": 43,
-   "registered": 32,
+   "capacity": 48,
+   "registered": 33,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 1,
    "location_2026": "Vancouver, BC Canada",
    "epa": {
-    "registered": 32,
-    "with_epa": 29,
+    "registered": 33,
+    "with_epa": 31,
     "max": 233.36,
-    "top8_avg": 124.37,
-    "top24_avg": 62.16,
-    "mean": 53.14,
+    "top8_avg": 126.7,
+    "top24_avg": 65.49,
+    "mean": 52.9,
     "median": 30.25
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
@@ -5756,6 +6056,11 @@
      "team": 9635,
      "name": "Cyber Rabbit",
      "epa": 122.37
+    },
+    {
+     "team": 3544,
+     "name": "Spartiates",
+     "epa": 94.15
     },
     {
      "team": 9449,
@@ -5883,9 +6188,9 @@
      "epa": 7.78
     },
     {
-     "team": 8173,
-     "name": "",
-     "epa": null
+     "team": 11302,
+     "name": "Hot Rods",
+     "epa": 4.66
     },
     {
      "team": 12245,
@@ -5906,20 +6211,20 @@
    "location": "Cedar Falls, IA USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 39,
-   "registered": 39,
+   "capacity": 41,
+   "registered": 41,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "Cedar Falls, IA USA",
    "epa": {
-    "registered": 39,
-    "with_epa": 37,
+    "registered": 41,
+    "with_epa": 38,
     "max": 171.47,
     "top8_avg": 105.64,
     "top24_avg": 64.79,
-    "mean": 48.66,
-    "median": 40.3
+    "mean": 48.08,
+    "median": 38.02
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -6054,6 +6359,11 @@
      "epa": 27.67
     },
     {
+     "team": 11246,
+     "name": "Tiger Botz",
+     "epa": 26.45
+    },
+    {
      "team": 11219,
      "name": "North Union Robotics",
      "epa": 26.35
@@ -6114,6 +6424,11 @@
      "epa": null
     },
     {
+     "team": 12443,
+     "name": "",
+     "epa": null
+    },
+    {
      "team": 12526,
      "name": "",
      "epa": null
@@ -6127,20 +6442,20 @@
    "location": "Arlington Heights, IL USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 35,
-   "registered": 26,
+   "capacity": 38,
+   "registered": 33,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "Arlington Heights, IL USA",
    "epa": {
-    "registered": 26,
-    "with_epa": 25,
+    "registered": 33,
+    "with_epa": 32,
     "max": 169.77,
-    "top8_avg": 120.16,
-    "top24_avg": 65.88,
-    "mean": 63.64,
-    "median": 46.3
+    "top8_avg": 131.07,
+    "top24_avg": 76.34,
+    "mean": 62.97,
+    "median": 46.41
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -6153,6 +6468,11 @@
      "team": 2338,
      "name": "Gear It Forward",
      "epa": 160.5
+    },
+    {
+     "team": 5847,
+     "name": "Ironclad",
+     "epa": 149.26
     },
     {
      "team": 4655,
@@ -6173,6 +6493,11 @@
      "team": 5934,
      "name": "Crowbotics",
      "epa": 103.81
+    },
+    {
+     "team": 2704,
+     "name": "Roaring Robotics",
+     "epa": 77.57
     },
     {
      "team": 8096,
@@ -6205,9 +6530,24 @@
      "epa": 50.51
     },
     {
+     "team": 1781,
+     "name": "Lindblom Electric Eagles",
+     "epa": 49.51
+    },
+    {
+     "team": 11173,
+     "name": "STAR FORCE",
+     "epa": 46.53
+    },
+    {
      "team": 2358,
      "name": "Bearbotics",
      "epa": 46.3
+    },
+    {
+     "team": 11195,
+     "name": "VOLT Robotics",
+     "epa": 44.67
     },
     {
      "team": 4296,
@@ -6250,9 +6590,19 @@
      "epa": 31.84
     },
     {
+     "team": 3734,
+     "name": "StarBots",
+     "epa": 29.9
+    },
+    {
      "team": 5125,
      "name": "Hawks on the Horizon",
      "epa": 27.14
+    },
+    {
+     "team": 9280,
+     "name": "PrepaTec - High Altitude Robotics",
+     "epa": 26.66
     },
     {
      "team": 9669,
@@ -6283,19 +6633,19 @@
    "location": "Nampa, ID USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 33,
-   "registered": 33,
+   "capacity": 35,
+   "registered": 35,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 33,
-    "with_epa": 32,
+    "registered": 35,
+    "with_epa": 34,
     "max": 230.05,
-    "top8_avg": 136.86,
-    "top24_avg": 73.23,
-    "mean": 59.36,
+    "top8_avg": 153.19,
+    "top24_avg": 80.55,
+    "mean": 62.68,
     "median": 41.77
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
@@ -6309,6 +6659,11 @@
      "team": 2122,
      "name": "Team Tators",
      "epa": 227.46
+    },
+    {
+     "team": 7426,
+     "name": "PAIR OF DICE ROBOTICS",
+     "epa": 204.79
     },
     {
      "team": 3006,
@@ -6426,6 +6781,11 @@
      "epa": 27.07
     },
     {
+     "team": 5071,
+     "name": "Charger Robotics",
+     "epa": 26.95
+    },
+    {
      "team": 8756,
      "name": "Magic Valley Logic Control",
      "epa": 22.15
@@ -6474,20 +6834,20 @@
    "location": "St. Paul, MN USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 40,
-   "registered": 40,
+   "capacity": 46,
+   "registered": 46,
    "status": "unchanged_venue_moved",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "Minneapolis, MN USA",
    "epa": {
-    "registered": 40,
-    "with_epa": 39,
+    "registered": 46,
+    "with_epa": 45,
     "max": 176.73,
-    "top8_avg": 93.78,
-    "top24_avg": 59.53,
-    "mean": 42.49,
-    "median": 36.17
+    "top8_avg": 94.64,
+    "top24_avg": 61.3,
+    "mean": 41.04,
+    "median": 32.21
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -6520,6 +6880,11 @@
      "team": 2175,
      "name": "The Fighting Calculators",
      "epa": 66.74
+    },
+    {
+     "team": 4624,
+     "name": "Rebel Alliance",
+     "epa": 63.3
     },
     {
      "team": 5434,
@@ -6592,6 +6957,16 @@
      "epa": 36.17
     },
     {
+     "team": 2508,
+     "name": "Armada",
+     "epa": 35.42
+    },
+    {
+     "team": 4536,
+     "name": "MinuteBots",
+     "epa": 32.21
+    },
+    {
      "team": 2667,
      "name": "Knights of the Valley",
      "epa": 30.39
@@ -6607,6 +6982,11 @@
      "epa": 29.96
     },
     {
+     "team": 8422,
+     "name": "Husky Howlers",
+     "epa": 28.29
+    },
+    {
      "team": 7850,
      "name": "Bio-Bots",
      "epa": 28.12
@@ -6620,6 +7000,11 @@
      "team": 3691,
      "name": "RoboRaiders",
      "epa": 23.59
+    },
+    {
+     "team": 3082,
+     "name": "Chicken Bot Pie",
+     "epa": 20.06
     },
     {
      "team": 4229,
@@ -6677,6 +7062,11 @@
      "epa": 10.87
     },
     {
+     "team": 6047,
+     "name": "Proctor Frostbyte",
+     "epa": 10.28
+    },
+    {
      "team": 2513,
      "name": "T.E.R.T.O.L.A.",
      "epa": 3.05
@@ -6700,20 +7090,20 @@
    "location": "Albany, NY USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 38,
-   "registered": 38,
+   "capacity": 48,
+   "registered": 39,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 7,
    "location_2026": "Albany, NY USA",
    "epa": {
-    "registered": 38,
-    "with_epa": 38,
+    "registered": 39,
+    "with_epa": 39,
     "max": 263.33,
     "top8_avg": 136.2,
-    "top24_avg": 83.81,
-    "mean": 62.21,
-    "median": 44.7
+    "top24_avg": 85.94,
+    "mean": 62.84,
+    "median": 45.73
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -6766,6 +7156,11 @@
      "team": 1880,
      "name": "Warriors of East Harlem",
      "epa": 87.37
+    },
+    {
+     "team": 3360,
+     "name": "Hyperion",
+     "epa": 87.08
     },
     {
      "team": 2228,
@@ -6916,7 +7311,7 @@
    "location": "Hamilton, OH USA",
    "date_start": "3/24/2027",
    "date_range": "3/24 to 3/27",
-   "capacity": 45,
+   "capacity": 48,
    "registered": 36,
    "status": "week_changed",
    "data_status": "registered",
@@ -7123,19 +7518,19 @@
    "date_start": "3/26/2027",
    "date_range": "3/26 to 3/28",
    "capacity": 48,
-   "registered": 45,
+   "registered": 43,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 1,
    "location_2026": "Başakşehir / İstanbul, 34 Türkiye",
    "epa": {
-    "registered": 45,
-    "with_epa": 29,
+    "registered": 43,
+    "with_epa": 28,
     "max": 261.31,
     "top8_avg": 125.89,
     "top24_avg": 60.41,
-    "mean": 52.06,
-    "median": 25.84
+    "mean": 53.82,
+    "median": 26.95
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -7280,11 +7675,6 @@
      "epa": 9.05
     },
     {
-     "team": 10045,
-     "name": "Casque Robotics",
-     "epa": 2.74
-    },
-    {
      "team": 10337,
      "name": "",
      "epa": null
@@ -7356,11 +7746,6 @@
     },
     {
      "team": 12489,
-     "name": "",
-     "epa": null
-    },
-    {
-     "team": 12535,
      "name": "",
      "epa": null
     }
@@ -7680,22 +8065,27 @@
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
    "capacity": 28,
-   "registered": 22,
+   "registered": 24,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 22,
-    "with_epa": 16,
-    "max": 155.77,
-    "top8_avg": 66.76,
-    "top24_avg": 44.64,
-    "mean": 44.64,
+    "registered": 24,
+    "with_epa": 18,
+    "max": 233.36,
+    "top8_avg": 91.66,
+    "top24_avg": 53.66,
+    "mean": 53.66,
     "median": 32.47
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 359,
+     "name": "Hawaiian Kids",
+     "epa": 233.36
+    },
     {
      "team": 4421,
      "name": "FORGE Robotics",
@@ -7762,6 +8152,11 @@
      "epa": 27.17
     },
     {
+     "team": 10427,
+     "name": "Kitimat Sentinels",
+     "epa": 18.27
+    },
+    {
      "team": 10384,
      "name": "Sparkanovas",
      "epa": 16.23
@@ -7815,7 +8210,7 @@
    "location": "Flagstaff, AZ USA",
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
-   "capacity": 50,
+   "capacity": 58,
    "registered": 44,
    "status": "week_changed",
    "data_status": "registered",
@@ -7825,9 +8220,9 @@
     "registered": 44,
     "with_epa": 41,
     "max": 163.96,
-    "top8_avg": 110.75,
-    "top24_avg": 74.72,
-    "mean": 50.7,
+    "top8_avg": 118.73,
+    "top24_avg": 77.38,
+    "mean": 52.26,
     "median": 31.86
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
@@ -7836,6 +8231,11 @@
      "team": 2996,
      "name": "Cougars Gone Wired",
      "epa": 163.96
+    },
+    {
+     "team": 4403,
+     "name": "PrepaTec - ROULT - Peñoles",
+     "epa": 152.37
     },
     {
      "team": 2486,
@@ -7861,11 +8261,6 @@
      "team": 11019,
      "name": "X.PLORE",
      "epa": 95.81
-    },
-    {
-     "team": 6353,
-     "name": "EFZ Robotics",
-     "epa": 88.48
     },
     {
      "team": 5823,
@@ -8177,19 +8572,19 @@
    "location": "West Palm Beach, FL USA",
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
-   "capacity": 39,
-   "registered": 39,
+   "capacity": 43,
+   "registered": 41,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Coral Gables, FL USA",
    "epa": {
-    "registered": 39,
-    "with_epa": 33,
+    "registered": 41,
+    "with_epa": 35,
     "max": 196.87,
     "top8_avg": 134.52,
-    "top24_avg": 81.38,
-    "mean": 64.88,
+    "top24_avg": 83.06,
+    "mean": 63.67,
     "median": 53.04
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
@@ -8248,6 +8643,11 @@
      "team": 5410,
      "name": "Eaglebotics",
      "epa": 82.28
+    },
+    {
+     "team": 801,
+     "name": "Horsepower",
+     "epa": 69.71
     },
     {
      "team": 5472,
@@ -8350,6 +8750,11 @@
      "epa": 22.85
     },
     {
+     "team": 7431,
+     "name": "Wingspan",
+     "epa": 17.79
+    },
+    {
      "team": 5872,
      "name": "Wiredcats",
      "epa": 12.39
@@ -8398,20 +8803,20 @@
    "location": "Westwego, LA USA",
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
-   "capacity": 46,
-   "registered": 46,
+   "capacity": 52,
+   "registered": 52,
    "status": "unchanged_venue_moved",
    "data_status": "registered",
    "week_2026": 5,
    "location_2026": "Kenner, LA USA",
    "epa": {
-    "registered": 46,
-    "with_epa": 39,
+    "registered": 52,
+    "with_epa": 44,
     "max": 256.51,
-    "top8_avg": 145.73,
-    "top24_avg": 78.89,
-    "mean": 54.66,
-    "median": 36.11
+    "top8_avg": 156.99,
+    "top24_avg": 88.6,
+    "mean": 57.22,
+    "median": 36.63
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -8419,6 +8824,11 @@
      "team": 8044,
      "name": "Denham Venom",
      "epa": 256.51
+    },
+    {
+     "team": 3937,
+     "name": "Breakaway",
+     "epa": 183.35
     },
     {
      "team": 2992,
@@ -8444,6 +8854,11 @@
      "team": 3753,
      "name": "BulahBots!",
      "epa": 111.86
+    },
+    {
+     "team": 4087,
+     "name": "Voodoo Voltage",
+     "epa": 110.38
     },
     {
      "team": 8841,
@@ -8491,6 +8906,11 @@
      "epa": 41.88
     },
     {
+     "team": 9717,
+     "name": "Poultronix",
+     "epa": 41.32
+    },
+    {
      "team": 9313,
      "name": "ROBOhana",
      "epa": 39.68
@@ -8536,6 +8956,11 @@
      "epa": 33.84
     },
     {
+     "team": 9708,
+     "name": "Supersonic Circuit Breakers",
+     "epa": 31.53
+    },
+    {
      "team": 9787,
      "name": "Fathom Robotics",
      "epa": 28.38
@@ -8564,6 +8989,11 @@
      "team": 5965,
      "name": "Power Struck Girls",
      "epa": 19.78
+    },
+    {
+     "team": 6489,
+     "name": "Bronco Bolts",
+     "epa": 19.39
     },
     {
      "team": 9761,
@@ -8637,6 +9067,11 @@
     },
     {
      "team": 11997,
+     "name": "",
+     "epa": null
+    },
+    {
+     "team": 12030,
      "name": "",
      "epa": null
     },
@@ -8915,23 +9350,28 @@
    "location": "Riverside, MO USA",
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
-   "capacity": 28,
-   "registered": 27,
+   "capacity": 41,
+   "registered": 40,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 5,
    "location_2026": "Riverside, MO USA",
    "epa": {
-    "registered": 27,
-    "with_epa": 25,
-    "max": 126.43,
-    "top8_avg": 102.39,
-    "top24_avg": 61.08,
-    "mean": 58.93,
-    "median": 51.55
+    "registered": 40,
+    "with_epa": 38,
+    "max": 171.78,
+    "top8_avg": 117.05,
+    "top24_avg": 75.81,
+    "mean": 56.39,
+    "median": 42.82
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 1986,
+     "name": "Team Titanium",
+     "epa": 171.78
+    },
     {
      "team": 4096,
      "name": "Ctrl-Z",
@@ -8941,6 +9381,11 @@
      "team": 7421,
      "name": "PrepaTec - OVERTURE",
      "epa": 122.16
+    },
+    {
+     "team": 1108,
+     "name": "Panther Robotics",
+     "epa": 120.98
     },
     {
      "team": 6237,
@@ -8953,9 +9398,9 @@
      "epa": 101.99
     },
     {
-     "team": 2357,
-     "name": "System Meltdown",
-     "epa": 100.44
+     "team": 9410,
+     "name": "PowerHouse",
+     "epa": 88.76
     },
     {
      "team": 1730,
@@ -8976,6 +9421,21 @@
      "team": 4500,
      "name": "RoboHounds",
      "epa": 79.2
+    },
+    {
+     "team": 5126,
+     "name": "Electromagnetic Panthers (EMP)",
+     "epa": 70.13
+    },
+    {
+     "team": 9551,
+     "name": "Tiger",
+     "epa": 61.56
+    },
+    {
+     "team": 4256,
+     "name": "Cyborg Cats",
+     "epa": 60.33
     },
     {
      "team": 4959,
@@ -9003,6 +9463,11 @@
      "epa": 43.0
     },
     {
+     "team": 1847,
+     "name": "WRATH",
+     "epa": 42.64
+    },
+    {
      "team": 6652,
      "name": "Tigres",
      "epa": 40.21
@@ -9021,6 +9486,11 @@
      "team": 8825,
      "name": "Team Eagle Eyed",
      "epa": 32.32
+    },
+    {
+     "team": 1764,
+     "name": "Liberty Robotics",
+     "epa": 29.98
     },
     {
      "team": 11171,
@@ -9043,6 +9513,11 @@
      "epa": 26.67
     },
     {
+     "team": 937,
+     "name": "Nerd Herd",
+     "epa": 26.25
+    },
+    {
      "team": 1769,
      "name": "Digital Hawks",
      "epa": 24.97
@@ -9051,6 +9526,31 @@
      "team": 1775,
      "name": "Tigerbytes",
      "epa": 24.69
+    },
+    {
+     "team": 1827,
+     "name": "THE HIVE",
+     "epa": 21.4
+    },
+    {
+     "team": 5098,
+     "name": "STING - R",
+     "epa": 21.32
+    },
+    {
+     "team": 10453,
+     "name": "Northmen Robotics",
+     "epa": 20.06
+    },
+    {
+     "team": 1763,
+     "name": "Paséliens",
+     "epa": 19.24
+    },
+    {
+     "team": 9445,
+     "name": "The Brave Bots",
+     "epa": 15.59
     },
     {
      "team": 5176,
@@ -9076,20 +9576,20 @@
    "location": "Las Vegas, NV USA",
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
-   "capacity": 39,
-   "registered": 39,
+   "capacity": 44,
+   "registered": 44,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Las Vegas, NV USA",
    "epa": {
-    "registered": 39,
-    "with_epa": 36,
+    "registered": 44,
+    "with_epa": 40,
     "max": 204.79,
-    "top8_avg": 139.45,
-    "top24_avg": 78.42,
-    "mean": 57.92,
-    "median": 39.06
+    "top8_avg": 146.74,
+    "top24_avg": 89.29,
+    "mean": 61.7,
+    "median": 42.29
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -9107,6 +9607,11 @@
      "team": 987,
      "name": "HIGHROLLERS",
      "epa": 160.62
+    },
+    {
+     "team": 6436,
+     "name": "PARS ROBOTICS",
+     "epa": 144.96
     },
     {
      "team": 10213,
@@ -9127,6 +9632,16 @@
      "team": 3882,
      "name": "Lunas",
      "epa": 100.96
+    },
+    {
+     "team": 233,
+     "name": "The Pink Team",
+     "epa": 100.65
+    },
+    {
+     "team": 6353,
+     "name": "EFZ Robotics",
+     "epa": 88.48
     },
     {
      "team": 7425,
@@ -9157,6 +9672,11 @@
      "team": 991,
      "name": "BroncoBots",
      "epa": 62.8
+    },
+    {
+     "team": 10114,
+     "name": "Phantom Talons",
+     "epa": 48.79
     },
     {
      "team": 3424,
@@ -9275,6 +9795,11 @@
     },
     {
      "team": 7077,
+     "name": "",
+     "epa": null
+    },
+    {
+     "team": 10698,
      "name": "",
      "epa": null
     },
@@ -9794,14 +10319,14 @@
    "location": "Bakırköy / İstanbul, 34 Türkiye",
    "date_start": "4/2/2027",
    "date_range": "4/2 to 4/4",
-   "capacity": 50,
-   "registered": 50,
+   "capacity": 52,
+   "registered": 52,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 4,
    "location_2026": "Bakırköy / İstanbul, 34 Türkiye",
    "epa": {
-    "registered": 50,
+    "registered": 52,
     "with_epa": 26,
     "max": 206.45,
     "top8_avg": 75.81,
@@ -10047,6 +10572,11 @@
      "epa": null
     },
     {
+     "team": 12490,
+     "name": "",
+     "epa": null
+    },
+    {
      "team": 12494,
      "name": "",
      "epa": null
@@ -10060,6 +10590,11 @@
      "team": 12548,
      "name": "",
      "epa": null
+    },
+    {
+     "team": 12551,
+     "name": "",
+     "epa": null
     }
    ]
   },
@@ -10071,19 +10606,19 @@
    "date_start": "3/31/2027",
    "date_range": "3/31 to 4/3",
    "capacity": 32,
-   "registered": 25,
+   "registered": 27,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 25,
-    "with_epa": 19,
+    "registered": 27,
+    "with_epa": 20,
     "max": 213.97,
-    "top8_avg": 112.53,
-    "top24_avg": 64.61,
-    "mean": 64.61,
-    "median": 43.48
+    "top8_avg": 121.92,
+    "top24_avg": 67.6,
+    "mean": 67.6,
+    "median": 46.03
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -10096,6 +10631,11 @@
      "team": 7632,
      "name": "An Kang Robotics Maker",
      "epa": 126.64
+    },
+    {
+     "team": 9692,
+     "name": "Sigma",
+     "epa": 124.43
     },
     {
      "team": 6417,
@@ -10208,6 +10748,11 @@
      "epa": null
     },
     {
+     "team": 12120,
+     "name": "",
+     "epa": null
+    },
+    {
      "team": 12409,
      "name": "",
      "epa": null
@@ -10221,20 +10766,20 @@
    "location": "Huntsville, AL USA",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 48,
-   "registered": 48,
+   "capacity": 50,
+   "registered": 50,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Huntsville, AL USA",
    "epa": {
-    "registered": 48,
-    "with_epa": 42,
+    "registered": 50,
+    "with_epa": 44,
     "max": 158.94,
     "top8_avg": 128.22,
     "top24_avg": 84.7,
-    "mean": 59.33,
-    "median": 49.66
+    "mean": 57.33,
+    "median": 44.44
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -10419,6 +10964,11 @@
      "epa": 22.37
     },
     {
+     "team": 7483,
+     "name": "Mechanically Challenged",
+     "epa": 19.98
+    },
+    {
      "team": 9073,
      "name": "Skol Robotics",
      "epa": 17.5
@@ -10437,6 +10987,11 @@
      "team": 3843,
      "name": "ROBO RACERS",
      "epa": 12.0
+    },
+    {
+     "team": 4306,
+     "name": "Robokomodos",
+     "epa": 10.55
     },
     {
      "team": 8624,
@@ -10487,32 +11042,47 @@
    "location": "Denver, CO USA",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 28,
-   "registered": 28,
+   "capacity": 38,
+   "registered": 38,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Denver, CO USA",
    "epa": {
-    "registered": 28,
-    "with_epa": 28,
-    "max": 227.46,
-    "top8_avg": 130.93,
-    "top24_avg": 67.17,
-    "mean": 59.57,
-    "median": 36.73
+    "registered": 38,
+    "with_epa": 38,
+    "max": 230.05,
+    "top8_avg": 168.53,
+    "top24_avg": 92.88,
+    "mean": 67.09,
+    "median": 43.52
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 4499,
+     "name": "The Highlanders",
+     "epa": 230.05
+    },
     {
      "team": 2122,
      "name": "Team Tators",
      "epa": 227.46
     },
     {
+     "team": 9068,
+     "name": "The Chargers",
+     "epa": 182.3
+    },
+    {
      "team": 1619,
      "name": "Up-A-Creek Robotics",
      "epa": 159.13
+    },
+    {
+     "team": 2240,
+     "name": "Brute Force",
+     "epa": 153.31
     },
     {
      "team": 4593,
@@ -10550,6 +11120,11 @@
      "epa": 62.95
     },
     {
+     "team": 2036,
+     "name": "Boulder Valley Black Knights",
+     "epa": 61.28
+    },
+    {
      "team": 662,
      "name": "Rocky Mountain Robotics",
      "epa": 56.52
@@ -10560,9 +11135,29 @@
      "epa": 54.83
     },
     {
+     "team": 1410,
+     "name": "The Kraken",
+     "epa": 50.42
+    },
+    {
      "team": 1891,
      "name": "Bullbots",
      "epa": 48.11
+    },
+    {
+     "team": 9586,
+     "name": "Denbot",
+     "epa": 47.87
+    },
+    {
+     "team": 11220,
+     "name": "The Royal Guard",
+     "epa": 47.18
+    },
+    {
+     "team": 2083,
+     "name": "Team Blitz",
+     "epa": 39.85
     },
     {
      "team": 2261,
@@ -10583,6 +11178,16 @@
      "team": 2972,
      "name": "Gears and Buccaneers",
      "epa": 35.16
+    },
+    {
+     "team": 1977,
+     "name": "The PowerSquids",
+     "epa": 34.54
+    },
+    {
+     "team": 10333,
+     "name": "Elevation",
+     "epa": 34.49
     },
     {
      "team": 3729,
@@ -10653,20 +11258,20 @@
    "location": "St. Cloud, MN USA",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 43,
-   "registered": 43,
+   "capacity": 48,
+   "registered": 48,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "St. Cloud, MN USA",
    "epa": {
-    "registered": 43,
-    "with_epa": 41,
+    "registered": 48,
+    "with_epa": 46,
     "max": 178.73,
     "top8_avg": 140.71,
-    "top24_avg": 89.99,
-    "mean": 62.11,
-    "median": 40.0
+    "top24_avg": 92.51,
+    "mean": 59.63,
+    "median": 39.58
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -10736,6 +11341,11 @@
      "epa": 82.03
     },
     {
+     "team": 7578,
+     "name": "Quantum Mechanics",
+     "epa": 69.1
+    },
+    {
      "team": 6146,
      "name": "Blackjacks",
      "epa": 67.55
@@ -10744,6 +11354,11 @@
      "team": 7541,
      "name": "Maple River",
      "epa": 65.48
+    },
+    {
+     "team": 3313,
+     "name": "Mechatronics",
+     "epa": 63.34
     },
     {
      "team": 6709,
@@ -10811,6 +11426,11 @@
      "epa": 33.4
     },
     {
+     "team": 4511,
+     "name": "Power Amplified",
+     "epa": 32.4
+    },
+    {
      "team": 4226,
      "name": "Huskies",
      "epa": 31.24
@@ -10839,6 +11459,11 @@
      "team": 7038,
      "name": "Totino-Grace Pizza Pi's",
      "epa": 24.18
+    },
+    {
+     "team": 5658,
+     "name": "STORMBOTICS",
+     "epa": 22.07
     },
     {
      "team": 3023,
@@ -10871,6 +11496,11 @@
      "epa": 10.77
     },
     {
+     "team": 10173,
+     "name": "Minot Syber-Sentinels",
+     "epa": 9.88
+    },
+    {
      "team": 5720,
      "name": "Jagobotics",
      "epa": 0.91
@@ -10894,20 +11524,20 @@
    "location": "Lee's Summit, MO USA",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 32,
-   "registered": 26,
+   "capacity": 38,
+   "registered": 37,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Lee's Summit, MO USA",
    "epa": {
-    "registered": 26,
-    "with_epa": 25,
+    "registered": 37,
+    "with_epa": 36,
     "max": 259.05,
-    "top8_avg": 142.0,
-    "top24_avg": 68.08,
-    "mean": 65.72,
-    "median": 40.06
+    "top8_avg": 177.83,
+    "top24_avg": 90.67,
+    "mean": 67.61,
+    "median": 37.98
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -10922,9 +11552,14 @@
      "epa": 256.0
     },
     {
-     "team": 8595,
-     "name": "This Is How We Play",
-     "epa": 151.76
+     "team": 4522,
+     "name": "Team SCREAM",
+     "epa": 241.76
+    },
+    {
+     "team": 1710,
+     "name": "The Ravonics Revolution",
+     "epa": 169.68
     },
     {
      "team": 5809,
@@ -10932,19 +11567,39 @@
      "epa": 131.87
     },
     {
+     "team": 4766,
+     "name": "Team SCREAM Jr.",
+     "epa": 130.02
+    },
+    {
      "team": 2040,
      "name": "DERT - Dunlap Eagles Robotics Team",
      "epa": 124.39
     },
     {
-     "team": 8806,
-     "name": "Our Lady of Providence Dream League",
-     "epa": 87.22
+     "team": 1939,
+     "name": "THE KUHNIGHTS",
+     "epa": 109.86
+    },
+    {
+     "team": 5126,
+     "name": "Electromagnetic Panthers (EMP)",
+     "epa": 70.13
     },
     {
      "team": 5013,
      "name": "Trobots",
      "epa": 69.3
+    },
+    {
+     "team": 2345,
+     "name": "Kearnage",
+     "epa": 68.88
+    },
+    {
+     "team": 5268,
+     "name": "The BioMech Falcons",
+     "epa": 61.85
     },
     {
      "team": 1825,
@@ -10982,6 +11637,26 @@
      "epa": 35.89
     },
     {
+     "team": 1806,
+     "name": "S.W.A.T.",
+     "epa": 35.51
+    },
+    {
+     "team": 6817,
+     "name": "10 Factorial",
+     "epa": 34.69
+    },
+    {
+     "team": 8112,
+     "name": "Cyclotrons",
+     "epa": 33.38
+    },
+    {
+     "team": 5141,
+     "name": "GRIFFINITE",
+     "epa": 33.09
+    },
+    {
      "team": 6744,
      "name": "MEHLVILLE RC",
      "epa": 31.58
@@ -11007,6 +11682,11 @@
      "epa": 25.43
     },
     {
+     "team": 1769,
+     "name": "Digital Hawks",
+     "epa": 24.97
+    },
+    {
      "team": 2457,
      "name": "The Law",
      "epa": 24.79
@@ -11025,6 +11705,11 @@
      "team": 6805,
      "name": "Quack Attack",
      "epa": 19.09
+    },
+    {
+     "team": 1785,
+     "name": "Blue Springs Robocats",
+     "epa": 15.97
     },
     {
      "team": 1982,
@@ -11050,27 +11735,47 @@
    "location": "New York, NY USA",
    "date_start": "4/5/2027",
    "date_range": "4/5 to 4/7",
-   "capacity": 26,
-   "registered": 24,
+   "capacity": 35,
+   "registered": 35,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "New York, NY USA",
    "epa": {
-    "registered": 24,
-    "with_epa": 20,
-    "max": 168.53,
-    "top8_avg": 82.31,
-    "top24_avg": 42.71,
-    "mean": 42.71,
-    "median": 24.69
+    "registered": 35,
+    "with_epa": 30,
+    "max": 263.33,
+    "top8_avg": 162.84,
+    "top24_avg": 82.79,
+    "mean": 68.34,
+    "median": 35.66
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
     {
+     "team": 1796,
+     "name": "RoboTigers",
+     "epa": 263.33
+    },
+    {
+     "team": 117,
+     "name": "Steel Dragons",
+     "epa": 194.88
+    },
+    {
+     "team": 8159,
+     "name": "Golden Horn",
+     "epa": 184.46
+    },
+    {
      "team": 8267,
      "name": "Riptide Robotics 8267",
      "epa": 168.53
+    },
+    {
+     "team": 8595,
+     "name": "This Is How We Play",
+     "epa": 151.76
     },
     {
      "team": 8393,
@@ -11083,9 +11788,29 @@
      "epa": 113.91
     },
     {
+     "team": 3158,
+     "name": "PrepaTec - TECBOT",
+     "epa": 102.78
+    },
+    {
      "team": 1880,
      "name": "Warriors of East Harlem",
      "epa": 87.37
+    },
+    {
+     "team": 8806,
+     "name": "Our Lady of Providence Dream League",
+     "epa": 87.22
+    },
+    {
+     "team": 3950,
+     "name": "RoboGym Robotics",
+     "epa": 77.52
+    },
+    {
+     "team": 3504,
+     "name": "Girls of Steel",
+     "epa": 72.29
     },
     {
      "team": 2875,
@@ -11103,6 +11828,11 @@
      "epa": 37.82
     },
     {
+     "team": 6873,
+     "name": "The Generals",
+     "epa": 33.5
+    },
+    {
      "team": 5421,
      "name": "BirchBots",
      "epa": 32.9
@@ -11111,6 +11841,11 @@
      "team": 6025,
      "name": "Adroit Androids",
      "epa": 29.46
+    },
+    {
+     "team": 8015,
+     "name": "The Cheetahs",
+     "epa": 28.29
     },
     {
      "team": 3004,
@@ -11183,7 +11918,12 @@
      "epa": null
     },
     {
-     "team": 12062,
+     "team": 11795,
+     "name": "",
+     "epa": null
+    },
+    {
+     "team": 12423,
      "name": "",
      "epa": null
     }
@@ -11196,23 +11936,28 @@
    "location": "New York, NY USA",
    "date_start": "4/8/2027",
    "date_range": "4/8 to 4/11",
-   "capacity": 42,
-   "registered": 42,
+   "capacity": 46,
+   "registered": 45,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "New York, NY USA",
    "epa": {
-    "registered": 42,
-    "with_epa": 39,
-    "max": 228.77,
-    "top8_avg": 101.19,
-    "top24_avg": 57.99,
-    "mean": 40.5,
-    "median": 30.32
+    "registered": 45,
+    "with_epa": 43,
+    "max": 263.33,
+    "top8_avg": 126.95,
+    "top24_avg": 70.27,
+    "mean": 45.86,
+    "median": 30.56
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
+    {
+     "team": 1796,
+     "name": "RoboTigers",
+     "epa": 263.33
+    },
     {
      "team": 694,
      "name": "StuyPulse",
@@ -11237,6 +11982,11 @@
      "team": 333,
      "name": "MEGALODONS",
      "epa": 76.17
+    },
+    {
+     "team": 1601,
+     "name": "Quantum Samurai",
+     "epa": 75.44
     },
     {
      "team": 369,
@@ -11299,6 +12049,11 @@
      "epa": 33.85
     },
     {
+     "team": 6873,
+     "name": "The Generals",
+     "epa": 33.5
+    },
+    {
      "team": 5421,
      "name": "BirchBots",
      "epa": 32.9
@@ -11332,6 +12087,11 @@
      "team": 7759,
      "name": "Bulldog Bytes",
      "epa": 22.26
+    },
+    {
+     "team": 9295,
+     "name": "Harlem Rails",
+     "epa": 20.25
     },
     {
      "team": 9636,
@@ -11409,11 +12169,6 @@
      "epa": 4.64
     },
     {
-     "team": 7004,
-     "name": "",
-     "epa": null
-    },
-    {
      "team": 11702,
      "name": "",
      "epa": null
@@ -11432,19 +12187,19 @@
    "location": "Tulsa, OK USA",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 34,
-   "registered": 32,
+   "capacity": 36,
+   "registered": 36,
    "status": "week_changed",
    "data_status": "registered",
    "week_2026": 5,
    "location_2026": "Tulsa, OK USA",
    "epa": {
-    "registered": 32,
-    "with_epa": 32,
+    "registered": 36,
+    "with_epa": 36,
     "max": 285.04,
-    "top8_avg": 131.64,
-    "top24_avg": 75.59,
-    "mean": 61.92,
+    "top8_avg": 151.61,
+    "top24_avg": 85.74,
+    "mean": 65.36,
     "median": 45.21
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
@@ -11453,6 +12208,11 @@
      "team": 2481,
      "name": "Roboteers",
      "epa": 285.04
+    },
+    {
+     "team": 498,
+     "name": "The Cobra Commanders",
+     "epa": 242.86
     },
     {
      "team": 6017,
@@ -11493,6 +12253,11 @@
      "team": 7130,
      "name": "Future Shock",
      "epa": 76.05
+    },
+    {
+     "team": 5550,
+     "name": "BRONChO BOTS",
+     "epa": 68.56
     },
     {
      "team": 757,
@@ -11580,6 +12345,16 @@
      "epa": 33.21
     },
     {
+     "team": 9631,
+     "name": "Chargers",
+     "epa": 31.53
+    },
+    {
+     "team": 1209,
+     "name": "RoboHornets",
+     "epa": 28.73
+    },
+    {
      "team": 2359,
      "name": "RoboLobos",
      "epa": 26.68
@@ -11618,20 +12393,20 @@
    "location": "Dorval, QC Canada",
    "date_start": "4/7/2027",
    "date_range": "4/7 to 4/10",
-   "capacity": 30,
-   "registered": 30,
+   "capacity": 32,
+   "registered": 32,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 6,
    "location_2026": "Dorval, QC Canada",
    "epa": {
-    "registered": 30,
-    "with_epa": 30,
+    "registered": 32,
+    "with_epa": 32,
     "max": 133.68,
     "top8_avg": 100.17,
-    "top24_avg": 68.68,
-    "mean": 57.81,
-    "median": 57.77
+    "top24_avg": 71.36,
+    "mean": 58.16,
+    "median": 59.13
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -11686,6 +12461,11 @@
      "epa": 75.51
     },
     {
+     "team": 11328,
+     "name": "SIA",
+     "epa": 70.32
+    },
+    {
      "team": 3996,
      "name": "RIKITIK",
      "epa": 67.29
@@ -11709,6 +12489,11 @@
      "team": 7605,
      "name": "ASTRO",
      "epa": 61.54
+    },
+    {
+     "team": 5800,
+     "name": "Magic Island Robotics",
+     "epa": 56.72
     },
     {
      "team": 9234,
@@ -11795,13 +12580,13 @@
    "date_start": "4/9/2027",
    "date_range": "4/9 to 4/11",
    "capacity": 39,
-   "registered": 39,
+   "registered": 38,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 39,
+    "registered": 38,
     "with_epa": 25,
     "max": 120.7,
     "top8_avg": 73.87,
@@ -11937,11 +12722,6 @@
      "epa": 11.88
     },
     {
-     "team": 8861,
-     "name": "",
-     "epa": null
-    },
-    {
      "team": 9070,
      "name": "",
      "epa": null
@@ -12016,13 +12796,13 @@
    "date_start": "4/15/2027",
    "date_range": "4/15 to 4/18",
    "capacity": 46,
-   "registered": 46,
+   "registered": 45,
    "status": "unchanged",
    "data_status": "registered",
    "week_2026": 7,
    "location_2026": "Tallahassee, FL USA",
    "epa": {
-    "registered": 46,
+    "registered": 45,
     "with_epa": 39,
     "max": 181.33,
     "top8_avg": 118.5,
@@ -12248,11 +13028,6 @@
      "epa": null
     },
     {
-     "team": 11772,
-     "name": "",
-     "epa": null
-    },
-    {
      "team": 11933,
      "name": "",
      "epa": null
@@ -12407,20 +13182,20 @@
    "location": "Buffalo, NY USA",
    "date_start": "4/14/2027",
    "date_range": "4/14 to 4/17",
-   "capacity": 28,
-   "registered": 27,
+   "capacity": 36,
+   "registered": 36,
    "status": "new_2027",
    "data_status": "registered",
    "week_2026": null,
    "location_2026": null,
    "epa": {
-    "registered": 27,
-    "with_epa": 26,
+    "registered": 36,
+    "with_epa": 35,
     "max": 215.94,
-    "top8_avg": 133.77,
-    "top24_avg": 73.08,
-    "mean": 68.95,
-    "median": 51.72
+    "top8_avg": 139.39,
+    "top24_avg": 92.35,
+    "mean": 72.0,
+    "median": 57.6
    },
    "epa_source": "2026 赛季各队 EPA（Statbotics）",
    "teams": [
@@ -12440,9 +13215,24 @@
      "epa": 129.7
     },
     {
+     "team": 424,
+     "name": "Rust Belt Robotics",
+     "epa": 123.48
+    },
+    {
+     "team": 3173,
+     "name": "IgKnighters",
+     "epa": 123.29
+    },
+    {
      "team": 1507,
      "name": "Warlocks",
      "epa": 118.35
+    },
+    {
+     "team": 1405,
+     "name": "Finney Falcons",
+     "epa": 116.95
     },
     {
      "team": 4027,
@@ -12463,6 +13253,21 @@
      "team": 2053,
      "name": "Southern Tier Robotics",
      "epa": 95.05
+    },
+    {
+     "team": 1591,
+     "name": "Greece Gladiators",
+     "epa": 91.84
+    },
+    {
+     "team": 2340,
+     "name": "Mercy Robotics-Xcentrics",
+     "epa": 89.36
+    },
+    {
+     "team": 1126,
+     "name": "SPARX",
+     "epa": 79.91
     },
     {
      "team": 2603,
@@ -12505,9 +13310,19 @@
      "epa": 38.93
     },
     {
+     "team": 4930,
+     "name": "Electric Mayhem",
+     "epa": 36.14
+    },
+    {
      "team": 3193,
      "name": "Falco Tech",
      "epa": 35.79
+    },
+    {
+     "team": 5590,
+     "name": "Alumiboti",
+     "epa": 35.54
     },
     {
      "team": 3814,
@@ -12518,6 +13333,11 @@
      "team": 9139,
      "name": "Reserve Robotics",
      "epa": 31.95
+    },
+    {
+     "team": 1518,
+     "name": "Raider Robotics",
+     "epa": 30.97
     },
     {
      "team": 451,
